@@ -1,0 +1,200 @@
+
+	:root {
+  --page-width: 1400px;
+}
+
+
+	
+	body {
+        background-color: #d4d6db;
+        margin: 0;
+        padding: 0;
+        
+    }
+	
+	h1 {
+	
+		font-family: 'Roboto', sans-serif;
+		color:#74AAD3;
+		width:100%;
+		margin:0px;
+		background-color:grey;
+	
+	}
+	
+	h2 {
+	
+		font-family: 'Roboto', sans-serif;
+		color:#38488f;
+		margin:15px 0px 10px 0px;
+	
+	}
+	
+	h6 {
+	
+		font-family: 'Roboto', sans-serif;
+		color:#38488f;
+		margin:0px;
+	
+	}
+	
+	p {
+	
+		font-family: 'Roboto', sans-serif;
+	
+	}
+	
+	a {
+	
+		text-decoration:none;
+	
+	}
+	
+	a:link, a:visited {
+        color: #38488f;
+        
+    }
+	
+	a:hover {
+	
+		text-decoration:underline;
+		color:black;
+	
+	}
+	
+	.aaukMain {
+	
+		color:#214584;
+	
+	}
+	
+	.aaukDark {
+	
+		color:#0e1782;
+	
+	}
+	
+	.centerVert {
+	
+		vertical-align: middle;
+	
+	}
+	
+	#bodymain {
+	
+		width:100%;
+		height:100%;
+		margin:0 auto;
+		margin-top:55px;
+        font-family: 'Roboto', sans-serif;
+		background-color:#eff2f7;
+		box-shadow: 2px 2px 3px grey;
+	
+	}
+	
+	.newstitle {
+		
+		float:left;
+		
+	}
+	
+	.newsdate {
+		
+		float:right;
+		margin-top:25px;
+		
+	}
+	
+	.newstext {
+		
+		clear:both;
+		
+	}
+	
+	.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+	
+	#card {
+		
+		border:1px;
+		background-color:#eff2f7;
+		border-width:2px;
+		border-color:black;
+		border-radius: 5em 0em 5em 0em;
+		padding:15px;
+		margin-bottom:15px;
+		vertical-align:middle;
+		box-shadow: 5px 5px 3px grey;
+		
+	}
+	
+	#bodybar {
+	
+		width:100%;
+		height:1000px;
+		
+	}
+	
+	#topbar {
+		
+		width:100%;
+		height:60px;
+		background-color:#93c3ea;
+	
+	}
+	
+	#topbar-image {
+	
+		width:var(--page-width);
+		margin:0 auto;
+	
+	}
+	
+	#menubar {
+	
+		width:100%;
+		height:20px;
+		padding:5px 0px 5px 0px;
+		background-color:#74aad3;
+	
+	}
+	
+	#menu {
+	
+		width:var(--page-width);
+		margin:0 auto;
+		background-color:#74aad3;
+		vertical-align: middle;
+	
+	}
+	
+	#banner {
+	
+		margin:8px 0px 8px 0px;
+	
+	}
+	
+	.firstmenuitem {
+	
+		float:left;
+		height:60%;
+		padding-right:20px;
+		vertical-align: middle;
+	
+	}
+	
+	.menuitem {
+	
+		float:left;
+		border-left: 1px grey solid;
+		height:60%;
+		padding-right:10px;
+		padding-left:10px;
+		vertical-align: middle;
+	
+	}
+	
+	

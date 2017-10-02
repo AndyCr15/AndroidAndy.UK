@@ -1,0 +1,42 @@
+[		
+		{
+			"name": "The Great Yarmouth Motorcycle Takeover",
+			"address":"Yarmouth Seafront",
+			"url":"https://www.facebook.com/events/1885932068303263/",
+			"start": "08/Jul/2017",
+			"end": "08/Jul/2017",
+			"lat": 52.604544,
+			"lon": 1.73444,
+			"comment":"It started last year with a simple call to get more than 20 people to turn up on a seaside run. It ended with a couple of thousand bikes closing down Yarmouth seafront for the day. This year the event is being run in order to raise funds for East Anglian Air Ambulance and if that’s not reason enough to show up we don’t know what is. Starts 10am."
+		},
+		{
+			"name": "Donington Classic Motorcycle Festival",
+			"address":"Castle Donington Circuit",
+			"url":"http://www.donington-park.co.uk/events/2016-calendar/donington-classic-motorcycle-festival/10242/#event",
+			"start": "04/Aug/2017",
+			"end": "06/Aug/2017",
+			"lat": 52.8305468,
+			"lon": -1.3788403,
+			"comment":"The Donington Classic Motorcycle Festival will return on 4-6 August 2017, with New Zealander Simon Crafar already confirmed as a star guest for the festival’s fifth running. The festival will is set to again feature up to 50 races across the three days courtesy of the Classic Racing Motorcycle Club (CRMC), as well as parades and massive display areas, with event regular Steve Parrish also confirmed to return again."
+		},
+		{
+			"name": "British MotoGP",
+			"address":"Silverstone Circuit",
+			"url":"http://www.silverstone.co.uk/events/2017-octo-british-grand-prix-motogp/",
+			"start": "25/Aug/2017",
+			"end": "27/Aug/2017",
+			"lat": 52.0733006,
+			"lon": -1.0146634,
+			"comment":"The best riders in the world will compete on the Silverstone Grand Prix Circuit in the race for the MotoGP™, Moto2™ and Moto3™ world titles – in what always turns out to be spectacular racing. For race fans and their families, there will be a big emphasis on family entertainment around the whole of Silverstone – with a massive Grand Prix Village hosting live bands on stage to entertain the crowds every night, a bigger family fairground, more displays and a bigger variety of food and drink outlets. "
+		},
+		{
+			"name": "Motorcycle Live",
+			"address":"Birmigham NEC",
+			"url":"http://www.motorcyclelive.co.uk/",
+			"start": "19/Nov/2017",
+			"end": "27/Nov/2017",
+			"lat": 52.450956,
+			"lon": -1.723137,
+			"comment":"Hop on two wheels for the UK’s largest motorbike show at the NEC Birmingham. See incredible motorbike displays and speak to manufacturers about all your questions. You can also sit on the bikes and try out the best accessories and merchandise."
+		}
+	]

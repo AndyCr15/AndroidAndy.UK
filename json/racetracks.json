@@ -1,0 +1,316 @@
+[		{
+			"name": "Brands Hatch",
+			"lat": 51.3598711,
+			"lon": 0.2586481,
+			"comment":"Possibly the UK's most famous track. Home to many events including WSB and various car shows.",
+			"finishlat": 51.360180,
+			"finishlon": 0.259949,
+			"finishdir": 75 
+		},
+		{
+			"name": "Silverstone",
+			"lat": 52.0733006,
+			"lon": -1.0168521,
+			"comment":"Home of Formula 1 and Moto GP.",
+			"finishlat": 52.069222,
+			"finishlon": -1.022257,
+			"finishdir": 30 
+		},
+		{
+			"name": "Snetterton",
+			"lat": 52.4636482,
+			"lon": 0.9436173,
+			"comment":"Two long straights, some great corners in between",
+			"finishlat": 52.463379,
+			"finishlon": 0.944745,
+			"finishdir": 260
+		},
+		{
+			"name": "Oulton Park",
+			"lat": 53.178469,
+			"lon": -2.6189947,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0
+		},
+		{
+			"name": "Rye House",
+			"lat": 51.767234,
+			"lon": 0.0089293,
+			"comment":"One of the UK's best karting tracks, where Lewis Hamilton used to drive.",
+			"finishlat": 51.7674242,
+			"finishlon": 0.0110571,
+			"finishdir": 310
+		},
+		{
+			"name": "Donington Park",
+			"lat": 52.8305468,
+			"lon": -1.381029,
+			"comment":"Donington is a physically demanding circuit that rewards smoothness and concentration and both the world famous Craner Curves, which swoops down rollercoaster fashion, and the blind right of Coppice require more than a little nerve.",
+			"finishlat": 52.829847,
+			"finishlon": -1.379542,
+			"finishdir": 285 
+		},
+		{
+			"name": "Anglesey",
+			"lat": 53.191994,
+			"lon": -4.5038327,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Bedford Autodrome",
+			"lat": 52.2211337,
+			"lon": -0.4819822,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Cadwell Park",
+			"lat": 53.3108261,
+			"lon": -0.0737291,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Croft",
+			"lat": 54.4554809,
+			"lon": -1.5580811,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Lydden Hill",
+			"lat": 51.1771493,
+			"lon": 1.1987867,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Rockingham",
+			"lat": 52.5156871,
+			"lon": -0.6600846,
+			"comment":"As you would expect from a purpose built facility, there is something for everyone with technical twisty bits, flowing corners and elevation changes. As an added point of interest, the circuit runs anticlockwise so gives a good chance to practice your left handers. The track itself is wide and smooth, and although maybe not endowed with the character of older circuits, its impressive facilities and riding enjoyment have cemented Rockingham firmly in the trackday calendar.",
+			"finishlat": 52.514760,
+			"finishlon":  -0.662264,
+			"finishdir": 160 
+		},
+		{
+			"name": "Thruxton",
+			"lat": 51.185835,
+			"lon": -1.55265,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Knock Hill",
+			"lat": 56.1313905,
+			"lon": -3.5111837,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Pembrey Race Circuit",
+			"lat": 51.7052918,
+			"lon": -4.3258864,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Castle Combe",
+			"lat": 51.4935115,
+			"lon": -2.2200441,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Goodwood",
+			"lat": 50.859426,
+			"lon": -0.753909,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Santa Pod",
+			"lat": 52.23485,
+			"lon": -0.6022797,
+			"comment":"The world famous drag strip.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuito De Almeria",
+			"lat": 37.0851039,
+			"lon": -2.2667235,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuit of the Americas",
+			"lat": 30.1345808,
+			"lon": -97.6380398,
+			"comment":"",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "MotorLand Aragón",
+			"lat": 41.0782998,
+			"lon": -0.2067232,
+			"comment":"The track is wide, smooth and technically demanding with blind crests, changes in elevation and downhill corners. Turns 6 and 7 are reminiscent of the Corkscrew at Laguna Seca. There are two fast straights, the longest being over a mile long.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Automotodrom Brno",
+			"lat": 49.2038873,
+			"lon": 16.4434728,
+			"comment":"The track is spectacular, undulating through expansive corners, with a good mix of left and right handers.  It's technically challenging and requires a flowing riding style, with few hard braking manoeuvres and is a favourite of many of the MotoGP riders who race there. It was designed with safety as a primary concern and has large run off areas and is wide, at 15m.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuito de Cartagena",
+			"lat": 37.6460911,
+			"lon": -1.0361201,
+			"comment":"The track itself is set in what looks like a disused quarry and is very twisty with a good mixture of tricky slow or medium speed corners and a 600 metre long straight. Along with the impressive elevation changes this makes for a physically demanding circuit that requires concentration to maintain momentum. The surface is reckoned to be one of the grippiest anywhere.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuito Estoril",
+			"lat": 38.7505686,
+			"lon": -9.3963843,
+			"comment":"Estoril Circuit is a tricky MOTOGP race track in Portugal with long corners and heavy braking zones and a difficult chicane.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Mallory Park",
+			"lat": 52.6006262,
+			"lon": -1.3344846,
+			"comment":"Although on the short side, and therefore relatively easy to learn, a lap involves some intense action with quick straights, heavy braking and the amazing fast, seemingly endless Gerrards bend. In contrast, Shaws Hairpin is ultra tight and a real skill test.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Hungaroring",
+			"lat": 47.5817111,
+			"lon": 19.2484219,
+			"comment":"Its abundance of turns, downhill twists, blind curves and few straights ensure that this track certainly isn’t boring!",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuit de Barcelona-Catalunya",
+			"lat": 41.5682267,
+			"lon": 2.2549604,
+			"comment":"Fulfil your passion for speed at one of the best designed circuits of the recent era. The circuit presents an exciting combination of fast straights and 13 twisting turns, giving you an adrenaline-fuelled ride.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuito de Jerez",
+			"lat": 36.7092986,
+			"lon": -6.036067,
+			"comment":"With a good mixture of left and right handers, the direction changes add to the technical nature of of track.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuito Le Mans",
+			"lat": 47.9557312,
+			"lon": 0.2099673,
+			"comment":"The layout, with medium speed corners and high speed straights, makes for an entertaining circuit in a venue steeped in motorsport history.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Mugello Circuit",
+			"lat": 43.9905442,
+			"lon": 11.3680725,
+			"comment":"Mugello Circuit needs little introduction, owned by Ferrari and home to the Italian Motorcycle Grand Prix it is a world class circuit with something for everyone. Massive elevations, high speed chicanes, long straight and fast sweeping corners with no hairpins or stop/start chicanes, it really doesn't get much better than this.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Parcmotor Castellolí",
+			"lat": 41.5915244,
+			"lon": 1.685246,
+			"comment":"Completed in early 2009 this FIA and FIM sanctioned track is a hidden gem, with input during its design by riders including Alex Criville, Carlos Checha and Toni Elias it is particularly thrilling as a motorcycle venue. With large changes in elevation and several blind corners it is a fantastic challenge for riders of all abilities.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Autódromo Internacional do Algarve",
+			"lat": 37.2313331,
+			"lon": -8.6305163,
+			"comment":"With what is described as a roller coaster layout, this exciting and unique track combines 9 right handers and 6 left handers in one fast flowing, wide ribbon of tarmac. The corners and straights follow each other at an exciting rhythm with vastly accentuated declines. The undulations of the circuit, some tricky cambers and blind crests make this a physical and demanding circuit, although its vast run off makes it very forgiving should the adrenaline get the better of you!",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "SLOVAKIA RING",
+			"lat": 48.055423,
+			"lon": 17.5687362,
+			"comment":"SLOVAKIA RING is a professional and versatile motor sports complex and home of the first national racing circuit with homologation from Fédération Internationale de l'Automobile (FIA).",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuit de Spa-Francorchamps",
+			"lat": 50.4369118,
+			"lon": 5.9698613,
+			"comment":"At 4.3 miles the Spa circuit is no doubt one of the longest tracks you'll find.  It is also described by many as one of the most popular in the world.  With 20 corners combined with a fast, hilly and twisty nature there is a lot to learn.",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		},
+		{
+			"name": "Circuit Ricardo Tormo",
+			"lat": 39.4868633,
+			"lon": -0.6320584,
+			"comment":"It was completed in 1999 and runs anti clockwise with a predominance of left hand corners including the spectacular, immensely long Turn 13 which rises up uphill, before plunging back towards the final corner. Apart from the long straight, the track is twisty and technical, with corners flowing one after the other, requiring concentration and precision. ",
+			"finishlat": 0.0,
+			"finishlon": 0.0,
+			"finishdir": 0 
+		}
+	]

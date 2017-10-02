@@ -1,0 +1,67 @@
+[		{
+			"name": "Ace Cafe",
+			"lat": 51.5412794,
+			"lon": -0.2799549,
+			"comment":"The world famous Ace Cafe. Food not the best though. Friday nights are always busy."
+		},
+		{
+			"name": "High Beach",
+			"lat": 51.657176,
+			"lon": 0.0349883,
+			"comment":""
+		},
+		{
+			"name": "Ryka's Cafe",
+			"lat": 51.255562,
+			"lon": -0.3243657,
+			"comment":""
+		},
+		{
+			"name": "Loomies Cafe",
+			"lat": 51.030443,
+			"lon": -1.0779103,
+			"comment":"Great roads lead to it. Nice burger once you get there!"
+		},
+		{
+			"name": "H Cafe",
+			"lat": 51.658486,
+			"lon": -1.1781097,
+			"comment":""
+		},
+		{
+			"name": "On Yer Bike",
+			"lat": 51.854932,
+			"lon": -0.968651,
+			"comment":"Bike shop and burger van"
+		},
+		{
+			"name": "Revved Up",
+			"lat": 51.8500038,
+			"lon": 1.274296,
+			"comment":""
+		},
+		{
+			"name": "The Midway Truck Stop",
+			"lat": 52.9373479,
+			"lon": -2.6643152,
+			"comment":""
+		},
+		{
+			"name": "Finchingfield",
+			"lat": 51.96829,
+			"lon": 0.4480183,
+			"comment":"Beautiful scenery. Surrounded by great rounds. Nice place to eat too."
+		},
+		{
+			"name": "Bike Shed",
+			"lat": 51.527171,
+			"lon": -0.0805737,
+			"comment":"Own parking, often with security. Food can be pricey."
+		},
+		{
+			"name": "Hartside Cafe",
+			"lat": 54.6360254,
+			"lon": -2.5316498,
+			"comment":""
+		}
+	]
