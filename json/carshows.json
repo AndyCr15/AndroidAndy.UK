@@ -98,7 +98,16 @@
 			"lon": -1.723137,
 			"comment":"The Classic Motor Show is one of the largest classic car shows and is held every year at the NEC in Birmingham. Go along for over 2000 classic cars, 300 classic motorbikes and hundreds of trade stands."
 		},
-		
+		{
+			"name": "Regent Street Motor Show",
+			"address":"Regent Street, London",
+			"url":"http://regentstreetmotorshow.com/",
+			"start": "4/Nov/2017",
+			"end": "4/Nov/2017",
+			"lat": 51.5123251,
+			"lon": -0.1406753,
+			"comment":"A showcase of 125 years of motoring including veteran, vintage, classic, and modern-day cars. Something for everyone with lots of things to see and do including interactive displays and entertainment throughout the day from 10.30am until 4pm. A family friendly environment with the Street pedestrianised from Piccadilly Circus to Oxford Circus."
+		},
 		{
 			"name": "Performance Car Show",
 			"address":"Birmigham NEC",
