@@ -17,48 +17,12 @@
 <body>
     <form action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
 
-        <nav class="navbar navbar-fixed-top navbar-dark" style="background-color: #74AAD3;">
-            <a class="navbar-brand" href="index.php">AAUK</a>
-            <ul class="nav navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="youtube.php">YouTube</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="android.php">Android Apps</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="support.php">Support Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact Me</a>
-                </li>
-            </ul>
-            <form class="form-inline pull-xs-right" style="padding: 20px; line-height: 28px;">
-                <td>
-                    <button class="btn btn-primary-outline" type="submit" style="height: 35px; float: right;">Search</button>
-                    <input type="hidden" name="si" value="71011143">
-                    <input type="hidden" name="pid" value="r">
-                    <input type="hidden" name="n" value="0">
-                    <input type="hidden" name="_charset_" value="">
-                    <input type="hidden" name="bcd" value="&#247;">
-                    <input type="text" name="query" size="15" style="height: 35px; float: right;">
+        <?php
+            include 'header.php';
+            ?>
+            <div class="container" style="margin-top:70px">
 
 
-                </td>
-            </form>
-
-        </nav>
-
-
-        <div class="container" style="margin-top:70px">
-
-            <div class="row">
 
                 <div class="col-md-4 col-sm-3">
                     <div id="card" class="thumbnail">
@@ -92,9 +56,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
+                <div class="col-md-4 col-sm-3">
+                    <div id="card" class="thumbnail">
+                        <a href="https://play.google.com/store/apps/details?id=com.androidandyuk.onedayweather"><img style="display:block;margin: 0 auto;" src="images/onedayweather_logo.png" alt="..."></a>
+                        <div class="caption">
+                            <h3>One Day Weather</h3>
+                            <p>Notifications about the next mornings weather. Handy to know if I should take the bike or car to work!</p>
+                            <p><a href="https://play.google.com/store/apps/details?id=com.androidandyuk.onedayweather" class="btn btn-primary" role="button">Play Store</a></p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-4 col-sm-3">
                     <div id="card" class="thumbnail">
                         <a href="https://play.google.com/store/apps/details?id=com.androidandyuk.regularreminders"><img style="display:block;margin: 0 auto;" src="images/regular-reminders.png" alt="..."></a>
@@ -127,9 +100,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
+
+
 
                 <div class="col-md-4 col-sm-3">
                     <div id="card" class="thumbnail">
@@ -141,37 +114,37 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div>
+                    <p>To see all the apps I have in the play store, click <a href="https://play.google.com/store/apps/developer?id=AAUK">here</a>.</p>
+                </div>
             </div>
 
+            <?php include 'counter.php'; ?>
 
-            <p>To see all the apps I have in the play store, click <a href="https://play.google.com/store/apps/developer?id=AAUK">here</a>.</p>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-        </div>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 
-        <?php include 'counter.php'; ?>
+            <script>
+                (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+                ga('create', 'UA-105372126-1', 'auto');
+                ga('send', 'pageview');
 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-
-        <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-105372126-1', 'auto');
-            ga('send', 'pageview');
-
-        </script>
-        <script src="//inc.freefind.com/inc/ffse-overlay.min.js" async></script>
+            </script>
+            <script src="//inc.freefind.com/inc/ffse-overlay.min.js" async></script>
 </body>
 
 </html>

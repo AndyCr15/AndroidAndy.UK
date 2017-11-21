@@ -29,30 +29,21 @@ $pollResult = $poll->getResult($_GET['pollID']);
 
         <body>
             <form action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
-                <nav class="navbar navbar-fixed-top navbar-dark" style="background-color:#74AAD3">
-                    <a class="navbar-brand" href="index.php">AAUK</a>
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active"> <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="youtube.php">YouTube</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="android.php">Android Apps</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="about.php">About Me</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="support.php">Support Me</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="contact.php">Contact Me</a> </li>
-                    </ul>
-                </nav>
+                <?php
+            include 'header.php';
+            ?>
+                    <div id="bodymain" class="container" style="padding:0px ">
 
-                <div id="bodymain" class="container" style="padding:0px ">
-
-                    <h1>
-                        <?php echo $pollResult['poll']; ?>
-                    </h1>
-                    <p>
-                        <b>Total Votes:</b>
-                        <?php echo $pollResult['total_votes']; ?>
-                    </p>
+                        <h1>
+                            <?php echo $pollResult['poll']; ?>
+                        </h1>
+                        <p>
+                            <b>Total Votes:</b>
+                            <?php echo $pollResult['total_votes']; ?>
+                        </p>
 
 
-                    <?php
+                        <?php
             if(!empty($pollResult['options'])){ $i=0;
                 //Option bar color class array
                 $barColorArr = array('green','yellow','red','blue','grey');
@@ -68,84 +59,84 @@ $pollResult = $poll->getResult($_GET['pollID']);
                     $barColor = $barColorArr[$i];
             ?>
 
-                        <div class="bar-main-container <?php echo $barColor; ?>">
-                            <div class="txt">
-                                <?php echo $opt; ?>
-                            </div>
-                            <div class="wrap">
-                                <div class="bar-percentage">
-                                    <?php echo $votePercent; ?>
+                            <div class="bar-main-container <?php echo $barColor; ?>">
+                                <div class="txt">
+                                    <?php echo $opt; ?>
                                 </div>
-                                <div class="bar-container">
-                                    <div class="bar" style="width: <?php echo $votePercent; ?>;"></div>
+                                <div class="wrap">
+                                    <div class="bar-percentage">
+                                        <?php echo $votePercent; ?>
+                                    </div>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: <?php echo $votePercent; ?>;"></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <?php $i++; } } ?>
-                        <a href="index.php">Return</a>
+                            <?php $i++; } } ?>
+                            <a href="index.php">Return</a>
 
-                </div>
+                    </div>
 
-                <script>
-                    (function(i, s, o, g, r, a, m) {
-                        i['GoogleAnalyticsObject'] = r;
-                        i[r] = i[r] || function() {
-                            (i[r].q = i[r].q || []).push(arguments)
-                        }, i[r].l = 1 * new Date();
-                        a = s.createElement(o),
-                            m = s.getElementsByTagName(o)[0];
-                        a.async = 1;
-                        a.src = g;
-                        m.parentNode.insertBefore(a, m)
-                    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+                    <script>
+                        (function(i, s, o, g, r, a, m) {
+                            i['GoogleAnalyticsObject'] = r;
+                            i[r] = i[r] || function() {
+                                (i[r].q = i[r].q || []).push(arguments)
+                            }, i[r].l = 1 * new Date();
+                            a = s.createElement(o),
+                                m = s.getElementsByTagName(o)[0];
+                            a.async = 1;
+                            a.src = g;
+                            m.parentNode.insertBefore(a, m)
+                        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                    ga('create', 'UA-105372126-1', 'auto');
-                    ga('send', 'pageview');
+                        ga('create', 'UA-105372126-1', 'auto');
+                        ga('send', 'pageview');
 
-                </script>
-                <script>
-                    $(function() {
-                        $('img').on('click', function() {
-                            $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
-                            $('#enlargeImageModal').modal('show');
-                        });
-                    });
-
-                </script>
-                <script>
-                    /* Light YouTube Embeds by @labnol */
-                    /* Web: http://labnol.org/?p=27941 */
-
-                    document.addEventListener("DOMContentLoaded",
-                        function() {
-                            var div, n,
-                                v = document.getElementsByClassName("youtube-player");
-                            for (n = 0; n < v.length; n++) {
-                                div = document.createElement("div");
-                                div.setAttribute("data-id", v[n].dataset.id);
-                                div.innerHTML = labnolThumb(v[n].dataset.id);
-                                div.onclick = labnolIframe;
-                                v[n].appendChild(div);
-                            }
+                    </script>
+                    <script>
+                        $(function() {
+                            $('img').on('click', function() {
+                                $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+                                $('#enlargeImageModal').modal('show');
+                            });
                         });
 
-                    function labnolThumb(id) {
-                        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-                            play = '<div class="play"></div>';
-                        return thumb.replace("ID", id) + play;
-                    }
+                    </script>
+                    <script>
+                        /* Light YouTube Embeds by @labnol */
+                        /* Web: http://labnol.org/?p=27941 */
 
-                    function labnolIframe() {
-                        var iframe = document.createElement("iframe");
-                        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-                        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-                        iframe.setAttribute("frameborder", "0");
-                        iframe.setAttribute("allowfullscreen", "1");
-                        this.parentNode.replaceChild(iframe, this);
-                    }
+                        document.addEventListener("DOMContentLoaded",
+                            function() {
+                                var div, n,
+                                    v = document.getElementsByClassName("youtube-player");
+                                for (n = 0; n < v.length; n++) {
+                                    div = document.createElement("div");
+                                    div.setAttribute("data-id", v[n].dataset.id);
+                                    div.innerHTML = labnolThumb(v[n].dataset.id);
+                                    div.onclick = labnolIframe;
+                                    v[n].appendChild(div);
+                                }
+                            });
 
-                </script>
-                <script src="//inc.freefind.com/inc/ffse-overlay.min.js" async></script>
+                        function labnolThumb(id) {
+                            var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+                                play = '<div class="play"></div>';
+                            return thumb.replace("ID", id) + play;
+                        }
+
+                        function labnolIframe() {
+                            var iframe = document.createElement("iframe");
+                            var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                            iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                            iframe.setAttribute("frameborder", "0");
+                            iframe.setAttribute("allowfullscreen", "1");
+                            this.parentNode.replaceChild(iframe, this);
+                        }
+
+                    </script>
+                    <script src="//inc.freefind.com/inc/ffse-overlay.min.js" async></script>
         </body>
 
         </html>
