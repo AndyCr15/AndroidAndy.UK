@@ -12,12 +12,12 @@ if (isset($_POST['discount'])){
     //check what discount they get and store it in session
     $code = $_POST['discount'];
     switch ($code){
-        case 'aaukten555':
+        case 'thiswontwork':
             if($_SESSION['discountcode'] < 0.5){
             $_SESSION['discountcode'] = 0.5;
             }
             break;
-        case 'aauktwenty987':
+        case 'thiswontwork':
             if($_SESSION['discountcode'] < 0.25){
             $_SESSION['discountcode'] = 0.25;
             }
