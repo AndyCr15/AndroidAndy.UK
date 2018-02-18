@@ -1,39 +1,89 @@
 [		{
-			"name": "American Speedfast V",
+			"name": "The London Classic Car Show",
+			"address":"Excel London",
+			"url":"http://www.thelondonclassiccarshow.co.uk/",
+			"start": "15/Feb/2018",
+			"end": "18/Feb/2018",
+			"lat": 51.5084634,
+			"lon": 0.027652,
+			"comment":"The London Classic Car Show is the must attend event for any discerning classic car owner, collector, expert or enthusiast. Bringing together an international celebration of the very best dealers, manufacturers, car clubs and products it’s the perfect day out for all. Set in London’s premier events venue, one of the show’s unique and most crowd pleasing features is an indoor driving runway where classic cars are fired up and driven. This is the only place to see, hear and smell these beautiful iconic classics in action, all under one roof."
+		},
+		{
+			"name": "American Speedfast VI",
 			"address":"Brands Hatch",
 			"url":"http://www.speedfest.co.uk/",
-			"start": "10/Jun/2017",
-			"end": "11/Jun/2017",
+			"start": "09/Jun/2018",
+			"end": "10/Jun/2018",
 			"lat": 51.3598711,
 			"lon": 0.2586481,
 			"comment":"American cars galore and plenty of action on the track, including European Nascar."
 		},
 		{
+			"name": "Goodwood Members Meeting",
+			"address":"Goodwood",
+			"url":"http://www.goodwood.co.uk",
+			"start": "17/Mar/2018",
+			"end": "17/Mar/2018",
+			"lat": 50.859426,
+			"lon": -0.753909,
+			"comment":"The member’s meeting features an unforgettable display of spectacular cars as well as high speed track demonstrations, offering a crowd free and friendly day out packed with fun filled activities and delicious food and drink."
+		},
+		{
+			"name": "Tatton American Car Show ‘Stars & Stripes’",
+			"address":"Tatton Park, Knutsford, Cheshire",
+			"url":"http://www.cheshireautopromotions.co.uk/",
+			"start": "30/Jun/2018",
+			"end": "01/Jul/2018",
+			"lat": 53.331163,
+			"lon": -2.385598,
+			"comment":"From Classic Cadillacs to Customised Pick–Up trucks, this event prides itself on displaying up to 1,500 of most magnificent vehicles to ever come out the US. Other attractions include Ex–US Army & Military Vehicles, Motorcycles (Harleys & Goldwings) and much more."
+		},
+		{
+			"name": "Passion for Power",
+			"address":"Tatton Park, Knutsford, Cheshire",
+			"url":"http://www.cheshireautopromotions.co.uk/",
+			"start": "18/Aug/2018",
+			"end": "19/Aug/2018",
+			"lat": 53.331163,
+			"lon": -2.385598,
+			"comment":"Recently changing its name to ‘Passion for Power’, this 30 year old event has no signs of slowing down. With a huge range of vehicles on display, from Classic cars to Supercars, it’s no wonder this annual event is so highly anticipated. Along with the spectacular display of vehicles, all visitors can expect to find a huge autojumble, entertainment, and over 250 stalls to choose from."
+		},
+		{
 			"name": "British Grand Prix",
 			"address":"Silverstone",
-			"url":"http://www.silverstone.co.uk/events/2017-formula-1-british-grand-prix/",
-			"start": "16/Jul/2017",
-			"end": "16/Jul/2017",
+			"url":"http://www.silverstone.co.uk/events/2018-formula-1-british-grand-prix/",
+			"start": "05/Jul/2018",
+			"end": "08/Jul/2018",
 			"lat": 52.0733006,
 			"lon": -1.0168574,
 			"comment":"Formula 1 at its best."
 		},
 		{
 			"name": "Goodwood Festival of Speed",
-			"address":"somewhere",
+			"address":"Goodwood",
 			"url":"https://www.goodwood.com/flagship-events/festival-of-speed/",
-			"start": "29/Jun/2017",
-			"end": "02/Jul/2017",
+			"start": "12/Jul/2018",
+			"end": "15/Jul/2018",
 			"lat": 50.859426,
 			"lon": -0.753909,
 			"comment":"The world famous festival of speed."
 		},
 		{
+			"name": "Goodwood Revival",
+			"address":"Goodwood",
+			"url":"https://www.goodwood.com/flagship-events/goodwood-revival/",
+			"start": "07/Sep/2018",
+			"end": "09/Sep/2018",
+			"lat": 50.859426,
+			"lon": -0.753909,
+			"comment":"This spectacular event needs absolutely no introduction. Famous Nationwide, Goodwood Revival attracts the best of the best of all types of Classic Vehicles, there really is no stone left unturned when it comes to celebrating the motoring world. Spectators can expect to see vehicles from the 40’s, 50’s & 60’s, and are encouraged to dress periodically. Consider this the pinnacle of all Classic Car events, and surely not one to be missed."
+		},
+		{
 			"name": "Carfest North",
 			"address":"Bolesworth Castle",
 			"url":"http://www.carfest.org/welcome/welcome-to-carfest-north",
-			"start": "28/Jul/2017",
-			"end": "30/Jul/2017",
+			"start": "27/Jul/2018",
+			"end": "29/Jul/2018",
 			"lat": 53.098659,
 			"lon": -2.755651,
 			"comment":"Packed with as much 4 wheeled action as we can squeeze into a weekend. From our Hill Climb Track Show, Car Club displays, Vintage Village, and the ever popular Sporting Bears Dream Rides."
@@ -42,11 +92,21 @@
 			"name": "Blast from the Past",
 			"address":"Thainstone Centre, Inverurie",
 			"url":"http://www.nes-blastfromthepast.co.uk/",
-			"start": "22/Jul/2017",
-			"end": "22/Jul/2017",
+			"start": "21/Jul/2018",
+			"end": "21/Jul/2018",
 			"lat": 57.255243,
 			"lon": -2.37267,
 			"comment":"A Car Show for all with a display of classic, rare, modified, restored and unique vehicles. Live action with an Auto Test competition against the clock. Parade laps of the interesting vehicles on display. Family Fun and Kids Zone with rides, bouncy castles, live music and competitions."
+		},
+		{
+			"name": "Ace Cafe All American Cruise",
+			"address":"Ace Cafe",
+			"url":"https://london.acecafe.com/",
+			"start": "27/Oct/2018",
+			"end": "27/Oct/2018",
+			"lat": 51.5412794,
+			"lon": -0.2777662,
+			"comment":"Ace Cafe pride themselves on their consistently popular motoring events and meetups. This time round, we see a spectacular group come together with their impressive range of American motors. With both admission for spectators and car entrees, this is definitely not an event to miss!"
 		},
 		{
 			"name": "Buster Lang",
@@ -62,8 +122,8 @@
 			"name": "Royal Deeside Speed Festival",
 			"address":"Kincardine Castle, Aboyne",
 			"url":"https://www.rdsf.co.uk/",
-			"start": "20/Aug/2017",
-			"end": "20/Aug/2017",
+			"start": "16/Jun/2018",
+			"end": "16/Jun/2018",
 			"lat": 57.089028,
 			"lon": -2.660971,
 			"comment":"Exciting new motoring festival heads to Deeside Royal Deeside Speed FestivalBringing motorsport to NE Scotland with Deeside’s first ever speed hillclimb."
@@ -72,8 +132,8 @@
 			"name": "Wings & Wheels",
 			"address":"Dunsfold Park, Cranleigh",
 			"url":"https://www.wingsandwheels.net/",
-			"start": "26/Aug/2017",
-			"end": "27/Aug/2017",
+			"start": "25/Aug/2018",
+			"end": "26/Aug/2018",
 			"lat": 51.1189448,
 			"lon": -0.53931,
 			"comment":"Founded to celebrate the long history of British aviation and motoring, the airshow also assist the fundraising efforts of a number of charities. Those being supported in 2017 are Brooklands Museum and Help for Heroes."
@@ -82,8 +142,8 @@
 			"name": "Carfest South",
 			"address":"Laverstoke Park Farm",
 			"url":"http://www.carfest.org/welcome/welcome-to-carfest-south",
-			"start": "25/Aug/2017",
-			"end": "30/Aug/2017",
+			"start": "24/Aug/2018",
+			"end": "26/Aug/2018",
 			"lat": 51.219003,
 			"lon": -1.258214,
 			"comment":"Packed with as much 4 wheeled action as we can squeeze into a weekend. From our Hill Climb Track Show, Car Club displays, Vintage Village, and the ever popular Sporting Bears Dream Rides."
@@ -92,8 +152,8 @@
 			"name": "Classic Motor Show",
 			"address":"Birmigham NEC",
 			"url":"http://www.necclassicmotorshow.com/",
-			"start": "10/Nov/2017",
-			"end": "12/Nov/2017",
+			"start": "09/Nov/2018",
+			"end": "11/Nov/2018",
 			"lat": 52.450956,
 			"lon": -1.723137,
 			"comment":"The Classic Motor Show is one of the largest classic car shows and is held every year at the NEC in Birmingham. Go along for over 2000 classic cars, 300 classic motorbikes and hundreds of trade stands."
@@ -102,8 +162,8 @@
 			"name": "Regent Street Motor Show",
 			"address":"Regent Street, London",
 			"url":"http://regentstreetmotorshow.com/",
-			"start": "4/Nov/2017",
-			"end": "4/Nov/2017",
+			"start": "3/Nov/2018",
+			"end": "3/Nov/2018",
 			"lat": 51.5123251,
 			"lon": -0.1406753,
 			"comment":"A showcase of 125 years of motoring including veteran, vintage, classic, and modern-day cars. Something for everyone with lots of things to see and do including interactive displays and entertainment throughout the day from 10.30am until 4pm. A family friendly environment with the Street pedestrianised from Piccadilly Circus to Oxford Circus."
@@ -112,10 +172,40 @@
 			"name": "Performance Car Show",
 			"address":"Birmigham NEC",
 			"url":"http://www.performancecarshow.com/",
-			"start": "13/Jan/2018",
-			"end": "14/Jan/2018",
+			"start": "12/Jan/2019",
+			"end": "13/Jan/2019",
 			"lat": 52.450956,
 			"lon": -1.723137,
 			"comment":"Performance Car Show is the leading UK exhibition dedicated to enthusiasts of sports and performance cars. It is a great time to meet leading tuning companies, see the latest performance road cars, speak to club members, watch the Live Action Arena precision driving displays and take part in driving experiences."
+		},
+		{
+			"name": "Classic Ford Show",
+			"address":"Santa Pod",
+			"url":"http://www.classicfordshow.co.uk/classicfordshow",
+			"start": "03/Jun/2018",
+			"end": "03/Jun/2018",
+			"lat": 52.2348533,
+			"lon": -0.602285,
+			"comment":"With thousands of the best old school Fords in Britain on display, from standard, tuned and modified cars, the Classic Ford Show has something for every blue oval fan. You can expect a whole day of Ford action on the famous Santa Pod drag strip including RWYB, stunts and demos from the best in the business, and your favourite features old and new."
+		},
+		{
+			"name": "Ford Fair",
+			"address":"Silverstone",
+			"url":"https://www.fordfair.co.uk/fordfairhome",
+			"start": "05/Aug/2018",
+			"end": "05/Aug/2018",
+			"lat": 52.0733006,
+			"lon": -1.0168574,
+			"comment":"Growing every single year, Ford Fair now in its 33rd year returns to Silverstone in 2018 for another unforgettable event. With over 4,000 cars on display and 18,000 guests attending last year, Ford Fair is the ‘must attend’ event for Blue Oval fans. With modern Fords on display, concours Cortina's to feisty Fiestas, from all over the UK and beyond there is enough to keep everyone interested. There’s so much variety in the Ford scene, and this is the show that brings all that variety together."
+		},
+		{
+			"name": "FordFest",
+			"address":"Santa Pod",
+			"url":"http://www.fordfestshow.co.uk/fordfest-show",
+			"start": "30/Sep/2018",
+			"end": "30/Sep/2018",
+			"lat": 52.2348533,
+			"lon": -0.602285,
+			"comment":"Organised by the team behind Fast Ford and Classic Ford magazines, FordFest will return for the forth year in 2018 and is set to feature thousands of Fords with a following, from Anglias to RS’s, Cortinas to Capris and Mondeos to Mustangs. FordFest is fast becoming one of the highlights of the Ford calendar, as it’s a great opportunity for fans of the marque to interact, whether they’re into new Fords, old Fords or, quite often, both. It’s a truly interactive show, and one that is guaranteed to feature as a must-attend in any Ford fans diary. "
 		}
 	]

@@ -61,6 +61,13 @@ img {
     margin: auto;
 }
 
+.podmedia {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 40px;
+}
+
 caption {
     margin-bottom: 5px;
     font-size: 160%;
@@ -146,6 +153,13 @@ a:hover {
 
 }
 
+img.news {
+    float: right;
+    margin: 10px;
+    max-width: 240px;
+    max-height: 480px;
+}
+
 .newstext {
     clear: both;
 
@@ -169,6 +183,21 @@ a:hover {
     vertical-align: middle;
     box-shadow: 5px 5px 3px grey;
     min-height: 450px;
+
+}
+
+#cardpodcast {
+
+    border: 1px;
+    background-color: #eff2f7;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5em 0em 5em 0em;
+    padding: 25px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 3px grey;
+    height: 400px;
 
 }
 

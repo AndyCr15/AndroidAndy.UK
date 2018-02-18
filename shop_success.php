@@ -6,6 +6,16 @@
 
 session_start();
 
+//echo '<pre></br></br>';
+//var_dump($_SESSION);
+//echo '</pre>';
+
+if($_SESSION['toPay']==0){
+    header("Location: shop_cancelled.php");
+    die();
+}
+
+
 ?>
 
     <html lang="en">
@@ -32,7 +42,7 @@ session_start();
                 <div id="bodymain" class="container">
 
                     <?php
-                    if($_SESSION['paid'] == "1"){
+                    if(true){
                 ?>
 
                         <h2 style="margin-top:0px">Order Successful</h2>

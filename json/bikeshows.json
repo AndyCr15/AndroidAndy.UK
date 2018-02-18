@@ -2,39 +2,59 @@
 		{
 			"name": "The Great Yarmouth Motorcycle Takeover",
 			"address":"Yarmouth Seafront",
-			"url":"https://www.facebook.com/events/1885932068303263/",
-			"start": "08/Jul/2017",
-			"end": "08/Jul/2017",
+			"url":"http://www.onthethrottle.co.uk/events/great-yarmouth-motorcycle-takeover-2018/",
+			"start": "07/Jul/2018",
+			"end": "07/Jul/2018",
 			"lat": 52.604544,
 			"lon": 1.73444,
-			"comment":"It started last year with a simple call to get more than 20 people to turn up on a seaside run. It ended with a couple of thousand bikes closing down Yarmouth seafront for the day. This year the event is being run in order to raise funds for East Anglian Air Ambulance and if that’s not reason enough to show up we don’t know what is. Starts 10am."
+			"comment":"The Great Yarmouth Motorcycle Takeover returns for its 3rd year!! After the ENORMOUS sucess of the 2017 takeover, we’ve been asked to do it all again, but bigger! Whats to look forward to? Well, you guys came in your thousands! Great Yarmouth has recognised how much the takeover brings to the town, and because this years was so sucessful, we have alot more freedom and flexibity for trade stands, entertainment, displays, bands etc. All the stuff you’ve been asking for!!"
 		},
 		{
-			"name": "Donington Classic Motorcycle Festival",
-			"address":"Castle Donington Circuit",
-			"url":"http://www.donington-park.co.uk/events/2016-calendar/donington-classic-motorcycle-festival/10242/#event",
-			"start": "04/Aug/2017",
-			"end": "06/Aug/2017",
-			"lat": 52.8305468,
-			"lon": -1.3788403,
-			"comment":"The Donington Classic Motorcycle Festival will return on 4-6 August 2017, with New Zealander Simon Crafar already confirmed as a star guest for the festival’s fifth running. The festival will is set to again feature up to 50 races across the three days courtesy of the Classic Racing Motorcycle Club (CRMC), as well as parades and massive display areas, with event regular Steve Parrish also confirmed to return again."
+			"name": "MCN London",
+			"address":"Excel London",
+			"url":"https://www.excel.london/whats-on/carole-nash-mcn-london-motorcycle-show-2018",
+			"start": "16/Feb/2018",
+			"end": "18/Feb/2018",
+			"lat": 51.5084634,
+			"lon": 0.027652,
+			"comment":"The Carole Nash MCN London Motorcycle Show is the most exciting bike show in the UK and for 2018 it’s bigger and better than ever. Your ticket gives you access to all the latest and greatest bikes, free live action plus the chance to browse a huge range of clothing, kit, accessories and motorcycling bargains. This is THE show where riders can buy a bike and kit themselves out from head-to-toe all in one day!"
+		},
+		{
+			"name": "MCN Scottish Motorcycle Show",
+			"address":"Edinburgh’s Royal Highland Centre",
+			"url":"http://www.scottishmotorcycleshow.com/",
+			"start": "03/Mar/2018",
+			"end": "04/Mar/2018",
+			"lat": 55.9411283,
+			"lon": -3.3711523,
+			"comment":"Major bike manufacturers will showcase their new models for 2018. Plus there will be exclusive offers from the dealers on new and 2017 motorbikes. Bag a bargain in the Bike Jumble and browse the Retail Village where a host of traders will be able to fit you out with new leathers, boots or helmet. If you want to improve your bike’s appearance there’s a wide array of suppliers to help make your bike stand out from the crowd."
 		},
 		{
 			"name": "British MotoGP",
 			"address":"Silverstone Circuit",
 			"url":"http://www.silverstone.co.uk/events/2017-octo-british-grand-prix-motogp/",
-			"start": "25/Aug/2017",
-			"end": "27/Aug/2017",
+			"start": "24/Aug/2018",
+			"end": "26/Aug/2018",
 			"lat": 52.0733006,
 			"lon": -1.0146634,
 			"comment":"The best riders in the world will compete on the Silverstone Grand Prix Circuit in the race for the MotoGP™, Moto2™ and Moto3™ world titles – in what always turns out to be spectacular racing. For race fans and their families, there will be a big emphasis on family entertainment around the whole of Silverstone – with a massive Grand Prix Village hosting live bands on stage to entertain the crowds every night, a bigger family fairground, more displays and a bigger variety of food and drink outlets. "
 		},
 		{
+			"name": "Prescott Bike Festival",
+			"address":"Prescott Hill Climb",
+			"url":"https://www.prescottbikefestival.co.uk/",
+			"start": "14/Apr/2018",
+			"end": "15/Apr/2018",
+			"lat": 51.9662391,
+			"lon": -2.0391937,
+			"comment":"For the first time ever, the Prescott Bike Festival has transformed into a spectacular weekend festival. Join us in April 2018 for 48 hours of biking excitement that’s sure to leave a lasting impression! It all starts on Saturday April 14 with an electric showcase, giving you the chance to see and feel what the future of motorcycles looks like. There’ll be some stunning examples on hand, and some of the country’s leading experts will be ready to answer all your questions."
+		},
+		{
 			"name": "Motorcycle Live",
 			"address":"Birmigham NEC",
 			"url":"http://www.motorcyclelive.co.uk/",
-			"start": "19/Nov/2017",
-			"end": "27/Nov/2017",
+			"start": "17/Nov/2018",
+			"end": "25/Nov/2018",
 			"lat": 52.450956,
 			"lon": -1.723137,
 			"comment":"Hop on two wheels for the UK’s largest motorbike show at the NEC Birmingham. See incredible motorbike displays and speak to manufacturers about all your questions. You can also sit on the bikes and try out the best accessories and merchandise."

@@ -30,7 +30,7 @@ session_start();
         <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 
         <?php
-        $_SESSION['paid'] = "0";
+        $_SESSION['paid'] = 0;
             include 'header.php';
         ?>
             <div class="container" style="margin-top:70px">
@@ -56,7 +56,7 @@ session_start();
             <script>
                 paypal.Button.render({
 
-                    env: 'sandbox', // sandbox | production
+                    env: 'production', // sandbox | production
 
                     // Specify the style of the button
 
@@ -95,16 +95,14 @@ session_start();
 
                     // onAuthorize() is called when the buyer approves the payment
                     onAuthorize: function(data, actions) {
-
                         // Make a call to the REST api to execute the payment
                         return actions.payment.execute().then(function() {
-                            <?php
-                                $_SESSION['paid'] = "1"; 
-                            ?>
+                            //$.post("shop_success.php", {
+                            //   paid: 1
+                            //});
                             window.location.href = "shop_success.php";
                         });
                     }
-
                 }, '#paypal-button-container');
 
             </script>

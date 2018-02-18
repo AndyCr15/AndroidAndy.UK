@@ -151,6 +151,11 @@ function calculate() {
 
 function cart() {
     echo('<h2 style="margin-top: 0px;">YOUR SHOPPING CART</h2>');
+    
+    //echo '<pre>';
+    //var_dump($_SESSION);
+    //echo '</pre>';
+    
     calculate();
     echo('<hr>');
     if ($_SESSION['toPay'] == 0) {
