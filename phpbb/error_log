@@ -1,0 +1,49 @@
+[23-Feb-2018 09:13:51 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[23-Feb-2018 09:13:54 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[23-Feb-2018 09:13:56 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[23-Feb-2018 09:14:00 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[23-Feb-2018 09:14:11 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[23-Feb-2018 09:14:14 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[23-Feb-2018 09:14:34 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "forumlist_body.html" (looked into: /home/androida/public_html/phpbb/styles/proflat/template, /home/androida/public_html/phpbb/styles/proflat/theme, /home/androida/public_html/phpbb/styles/all/template) in "index_body.html" at line 8.' in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/androida/public_html/phpbb/phpbb/template/twig/loader.php(135): Twig_Loader_Filesystem->findTemplate('forumlist_body....')
+#1 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): phpbb\template\twig\loader->findTemplate('forumlist_body....')
+#2 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('forumlist_body....')
+#3 /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('forumlist_body....')
+#4 /home/androida/public_html/phpbb/phpbb/ in /home/androida/public_html/phpbb/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232

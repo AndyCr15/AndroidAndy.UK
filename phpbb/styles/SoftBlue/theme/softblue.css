@@ -1,0 +1,184 @@
+/* SoftBlue created 5/2017 Joyce&Luna by phpBB-Style-Design.de ( https://phpbb-style-design.de )*/
+
+.copyright a:link		{ color: #020202; }
+.copyright a:visited	{ color: #020202; }
+.copyright a:hover		{ color: #020202; }
+.copyright a:active		{ color: #020202; }
+
+.logo-image-wrapper{
+	margin: 0 auto -4px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.bluewrap {
+	background-color: #fbfbfb;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	margin: 1px auto 4px;
+	padding: 8px;
+	clear: both;
+}
+
+.sitename-header {
+	background: #292c2f none repeat scroll 0 0;
+	width: 100%;
+	margin-top: -14px;
+}
+
+h5 {
+	background-color: #fbfbfb;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 4px 0 -4px;
+	text-align: center;
+}
+@media (min-width: 701px) and (max-width: 1220px) {
+	body {
+		padding: 34px;
+	}
+
+.wrap {
+	margin: 14px auto;
+}
+}
+
+@media (max-width: 700px) {
+.logo-image-wrapper {
+	display: none;
+}
+}
+
+/* topic-navi for phpBB 3.2 by Joyce&Luna http://phpBB-Style-Design.de
+------------------------------------------------------------------- */
+.topic-navi {
+	list-style: none;
+	padding: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.topic-navi a {
+	text-decoration: none;
+	font-weight: normal;
+	padding: 1em;
+	background: none;
+	display: flex;
+}
+
+.icons {
+	font-family: FontAwesome;
+	font-size: 11px !important;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.topic-navi a:hover {
+	background-color: transparent;
+}
+
+ul.linklist > li.rightside, p.rightside, a.rightside {
+	margin-bottom: 0;
+}
+
+.topic-navi-view {
+	list-style: none;
+	padding: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.topic-navi-view a {
+	text-decoration: none;
+	font-weight: normal;
+	padding: 1em;
+	background: none;
+	display: flex;
+}
+
+.topic-navi-view a:hover {
+	background-color: transparent;
+}
+
+@media all and (max-width: 900px) {
+.topic-navi {
+	justify-content: space-around;
+	max-width: 900px;
+}
+
+.topic-navi-view {
+	justify-content: space-around;
+	max-width: 900px;
+}
+}
+
+@media all and (max-width: 600px) {
+ul.linklist > li.rightside, p.rightside, a.rightside {
+	margin-bottom: 0px;
+}
+}
+
+/*cookie bar */
+.cc-color-override--1687565279.cc-window {
+	background-color: #4E78A5 !important;
+	color: #fff;
+}
+
+.cc-window.cc-banner {
+	flex-direction: row;
+	padding: 0.3em 1.8em !important;
+	width: 100%;
+}
+
+/* font icon */
+.fa-gears::before, .fa-cogs::before {
+	color: #b93939;
+	content: "";
+}
+
+.fa-legal::before, .fa-gavel::before {
+	color: #408d00;
+	content: "";
+}
+
+.fa-file::before {
+	color: #eab751;
+	content: "";
+}
+
+.fa-info::before {
+	color: #71a6c5;
+	content: "";
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+	color: #ac1919;
+	content: "";
+}
+
+.fa-exclamation::before {
+	color: #eb2c2c;
+	content: "";
+}
+
+.fa-pencil::before {
+	color: #555;
+	content: "";
+}
+
+.fa-quote-left::before {
+	color: #555;
+	content: "";
+}
