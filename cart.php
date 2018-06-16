@@ -69,9 +69,11 @@ function products() {
     if (mysqli_num_rows($get) == 0) {
         echo 'There are no products to display';
     } else {
+        echo('<div class="row">');
         while ($get_row = mysqli_fetch_assoc($get)) {
             include 'cart_item.php';
         }
+        echo('</div>');
         echo ('<hr>');
     }
 }

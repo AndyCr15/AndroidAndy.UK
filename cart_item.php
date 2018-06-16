@@ -1,12 +1,13 @@
-<div class="col-md-4 col-sm-3">
-    <div id="card" class="thumbnail">
+<div class="col-12 col-sm-6 col-lg-4">
+    <div class="card shopcard">
         <?php
-            echo '<img src="'. $get_row['image'] .'" id="saleitemimage">';
-            echo '<p><strong>' . $get_row['name'] . '</strong><br/>';
-            echo $get_row['description'] . '<br/>';
-            echo '&pound' . number_format($get_row['price'], 2);
-            echo '</br>';
-            echo '<a href="cart.php?add=' . $get_row['id'] . '" class="btn btn-primary" role="button" style="float: left;">Buy</a>'
+        echo '<img class="card-img-top" style="border-radius: 5em 0em;" alt="Card header image" src="'. $get_row['image'] .'">';
+        echo '<div class="card-body">';
+        echo '<h5>' . $get_row['name'] . '</h5>';
+        echo '<p class="card-text">'.$get_row['description'].'</p>';
+        echo '<p class="card-text">&pound' . number_format($get_row['price'], 2) . '</p>';
+        echo '<a href="cart.php?add=' . $get_row['id'] . '" class="btn btn-primary" role="button">Buy</a>';
+        echo '</div>';
         ?>
     </div>
 </div>

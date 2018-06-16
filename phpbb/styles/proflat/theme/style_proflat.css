@@ -1,13 +1,14 @@
-/*  phpBB3 proflat Style Sheet
-------------------------------------------------------------------------------------------
-	Style name:			proflat
-	Inherited from:		prosilver (the default phpBB 3.2.x style)
-	Original author:	phpBB Limited ( https://www.phpbb.com/ )
-	Modified by:		Mazeltof ( http://www.phpbb-fr.com/customise/db/author/mazeltof/ )
-------------------------------------------------------------------------------------------
-*/
+/* phpBB3 proflat 3.2.2 Style Sheet */
+/* --------------------------------------------------------------------------------------- */
+/* Style name:			proflat                                                            */
+/* Inherited from:		prosilver (the default phpBB 3.2.x style)                          */
+/* Original author:		phpBB Limited ( https://www.phpbb.com/ )                           */
+/* Modified by:			Mazeltof ( http://www.phpbb-fr.com/customise/db/author/mazeltof/ ) */
+/* --------------------------------------------------------------------------------------- */
 
-/**  common.css  ------------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* common.css                                                                              */
+/* --------------------------------------------------------------------------------------- */
 /* 1 - General Markup Styles */
 body {
 	padding: 0;
@@ -25,8 +26,8 @@ body {
 }
 /* 130 - Main blocks */
 .site_logo {
-	width: 377px;
-	height: 50px;
+	width: 168px;
+	height: 59px;
 }
 /* 186 - Round cornered boxes and backgrounds */
 .headerbar {
@@ -39,12 +40,12 @@ body {
 .forabg {
 	border-radius: 0;
 	margin-bottom: 5px;
-	padding: 5px 0 0 0;
+	padding: 0;
 }
 .forumbg {
 	border-radius: 0;
 	margin-bottom: 5px;
-	padding: 5px 0 0 0;
+	padding: 0;
 }
 .panel {
 	border-radius: 0;
@@ -118,7 +119,7 @@ div.rules {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
 	font-weight: normal;
-	line-height: auto;
+	line-height: inherit;
 	text-align: center;
 	text-shadow: none;
 	text-transform: none;
@@ -126,8 +127,9 @@ div.rules {
 .member-search {
 	padding: 11px 10px;
 }
-
-/**  links.css  -------------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* links.css                                                                               */
+/* --------------------------------------------------------------------------------------- */
 /* 31 - Notification mark read link */
 .dropdown-extended a.mark_read {
 	border-radius: 0;
@@ -137,12 +139,13 @@ a.arrow-up 		{ padding-left: 0; }
 a.arrow-down 	{ padding-right: 0; }
 a.arrow-left 	{ padding-left: 0; }
 a.arrow-right 	{ padding-right: 0;  }
-
-/**  content.css  -----------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* content.css                                                                             */
+/* --------------------------------------------------------------------------------------- */
 /* 1 - Content Styles */
 li.header dt,
 li.header dd {
-	padding-top: 8px;
+	padding-top: 13px;
 	padding-bottom: 9px;
 	font-size: 1.1em;
 }
@@ -153,39 +156,24 @@ li.header dl.row-item dt .list-inner {
 	/* Tweak for headers alignment when folder icon used */
 	padding-left: 10px;
 }
-/* 133 - Forum list column styles */
+/* 138 - Forum list column styles */
 dl.row-item dt .list-inner {
 	padding-left: 55px;					/* Space for folder icon */
 }
 dl.row-item dt {
 	min-height: 45px;
 }
-/* 445 - BB Code styles */
+dl a.row-item-link {						/* topic row icon links */
+	width: 32px;
+	height: 32px;
+}
 /* 447 - Quote block */
 blockquote.uncited {
 	padding-top: 5px;
 }
-/* 830 - Show scrollbars for items with overflow on iOS devices */
-.postbody .content::-webkit-scrollbar,
-.topicreview::-webkit-scrollbar,
-.post_details::-webkit-scrollbar,
-.codebox code::-webkit-scrollbar,
-.attachbox dd::-webkit-scrollbar,
-.attach-image::-webkit-scrollbar,
-.dropdown-extended ul::-webkit-scrollbar {
-	border-radius: 0;
-}
-.postbody .content::-webkit-scrollbar-thumb,
-.topicreview::-webkit-scrollbar-thumb,
-.post_details::-webkit-scrollbar-thumb,
-.codebox code::-webkit-scrollbar-thumb,
-.attachbox dd::-webkit-scrollbar-thumb,
-.attach-image::-webkit-scrollbar-thumb,
-.dropdown-extended ul::-webkit-scrollbar-thumb {
-	border-radius: 0;
-}
-
-/**  buttons.css  -----------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* buttons.css                                                                             */
+/* --------------------------------------------------------------------------------------- */
 /* 1 - Button Styles */
 .button {
 	border-radius: 0;
@@ -201,8 +189,9 @@ blockquote.uncited {
 .has-profile .post-buttons {
 	right: -12px;
 	}
-
-/**  cp.css  ----------------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* cp.css                                                                                  */
+/* --------------------------------------------------------------------------------------- */
 /* 99 - CP tabs shared */
 .tabs .tab, .minitabs .tab {
 	margin-right: 5px;
@@ -252,8 +241,9 @@ blockquote.uncited {
 		border-bottom-right-radius: 0;
 	}
 }
-
-/**  forms.css  -------------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* forms.css                                                                               */
+/* --------------------------------------------------------------------------------------- */
 /* 151 - Quick-login on index page */
 fieldset.quick-login {
 	margin: 0 0 5px 0;
@@ -282,8 +272,9 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	margin-right: 10px;
 	margin-top: 25px;
 }
-
-/**  icons.css  -------------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* icons.css                                                                               */
+/* --------------------------------------------------------------------------------------- */
 /* Global module setup */
 .button4 .icon:before { padding-right: 0; }
 /* 31 - Icon size classes */
@@ -300,10 +291,11 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	margin-right: 0;
 }
 .alert_close .icon:before {
-    border-radius: 50%; /*5px;*/
+    border-radius: 50%;
 }
-
-/**  colours.css  -----------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* colours.css                                                                             */
+/* --------------------------------------------------------------------------------------- */
 /* 3 - Colours and backgrounds for common.css */
 html, body {
 	background-color: #ffffff;
@@ -329,7 +321,7 @@ th a:hover {
 	color: #444444;
 }
 .postlink:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 /* 81 - Round cornered boxes and backgrounds */
 .wrap {
@@ -346,7 +338,7 @@ th a:hover {
 	background-image: none;
 }
 .navbar {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 .panel {
 	background-color: #eeeeee;
@@ -371,7 +363,7 @@ ul.zebra-list li:nth-child(even) {
 }
 .site_logo {
 	background-image: url("./images/site_logo.png");
-	
+	background-image: url("./images/site_logo.svg");
 	background-repeat: no-repeat;
 }
 /* 162 - Table styles */
@@ -384,17 +376,17 @@ table.table1 thead th {
 	padding: 0 0 4px 3px;
 }
 table.table1 tbody tr {
-	border-color: #808080;
+	border-color: #e5e5e5;
 }
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 	color: #000;
 }
 table.table1 td {
 	color: #444444;
 }
 table.table1 tbody td {
-	border-bottom-color: #808080;
+	border-bottom-color: #e5e5e5;
 }
 /* 195 - Misc layout styles */
 dl.details dd {
@@ -418,7 +410,7 @@ dl.details dd {
 	background-color: #f5f5f5;
 }
 .jumpbox-forum-link:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 .jumpbox .dropdown .pointer-inner {
 	border-color: #f5f5f5 transparent;
@@ -427,14 +419,14 @@ dl.details dd {
 	background-color: #f5f5f5;
 }
 .jumpbox-sub-link:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 /* 284 - Miscellaneous styles */
 .copyright {
 	color: #ffffff;
 }
 li.reported:hover {
-	background-color: #808080 !important;
+	background-color: #e5e5e5 !important;
 }
 div.rules {
 	background-color: #cccccc;
@@ -453,17 +445,13 @@ ul.topiclist li {
 	color: #444444;
 }
 li.row {
-	border-bottom-color: #808080;
+	border-bottom-color: #e5e5e5;
 }
 li.row:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 li.row:hover dd {
-	border-left-color: #808080;
-}
-.rtl li.row:hover dd {
-	border-right-color: #808080;
-	border-left-color: transparent;
+	border-left-color: #e5e5e5;
 }
 /* 373 - Content container styles */
 .content h2, .panel h2 {
@@ -476,10 +464,8 @@ li.row:hover dd {
 /* 409 - Quote block */
 blockquote {
 	background-color: #ffffff;
-	/*background-image: none;*/
-	border-color: #808080;
+	border-color: #e5e5e5;
 }
-.rtl blockquote { background-image: none; }
 /* 421 - Nested quotes */
 blockquote blockquote { background-color:#f5f5f5; }
 /* 426 - Nested quotes */												
@@ -591,11 +577,11 @@ blockquote blockquote blockquote { background-color: #ffffff; }
 /* 762 - Colours and backgrounds for cp.css */
 /* 765 - Main CP box */
 .panel-container .panel li.row {
-	border-bottom-color: #808080;
+	border-bottom-color: #e5e5e5;
 	border-top-color: transparent;
 }
 ul.cplist {
-	border-top-color: #808080;
+	border-top-color: #e5e5e5;
 }
 /* 795 - CP tabbed menu */
 .tabs .tab > a {
@@ -627,8 +613,7 @@ ul.cplist {
 }
 /* 844 - UCP navigation menu */
 /* 847 - Link styles for the sub-section links */
-.navigation a,
-.rtl .navigation a {
+.navigation a, .rtl .navigation a  {
 	color: #ffffff;
 	filter: none;
 }
@@ -652,7 +637,7 @@ ul.cplist {
 }
 /* 900 - Friends list */
 .cp-mini {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 dl.mini dt {
 	color: #444444;
@@ -693,7 +678,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	border-top-color: #cccccc;
 }
 .dropdown-extended ul li:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 .dropdown-extended .header, .dropdown-extended .footer {
 	border-color: #cccccc;
@@ -712,10 +697,21 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 li.notification-reported strong, li.notification-disapproved strong {
 	color: #D31141;
 }
-
-/**  responsive.css  --------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* responsive.css                                                                          */
+/* --------------------------------------------------------------------------------------- */
 @media (max-width: 700px) {
 	/* 145 - Common block wrappers */
+	.headerbar, 
+	.navbar,
+	.forabg,
+	.forumbg,
+	.post,
+	.panel,
+	.stat-block	{
+		margin-left: 0;
+		margin-right: 0;
+	}
 	.cp-main .forabg,
 	.cp-main .forumdb,
 	.cp-main .post,
@@ -727,8 +723,9 @@ li.notification-reported strong, li.notification-disapproved strong {
 		right: 2px;
 	}
 }
-
-/**  proflat.css  -----------------------------------------------  **/
+/* --------------------------------------------------------------------------------------- */
+/* proflat.css                                                                             */
+/* --------------------------------------------------------------------------------------- */
 /* Action-bars */
 .dropdown-container-right .button {
 	margin-right: 0;
@@ -774,11 +771,11 @@ li.notification-reported strong, li.notification-disapproved strong {
 .post-notice .fa-recycle:before 					{ content: "\e940"; }
 .previous .fa-chevron-left:before 				{ content: "\e95d"; }
 .profile-contact .fa-commenting-o:before 		{ content: "\e924"; }
-.row-item .fa-bar-chart:before 					{ content: "\e941"; cursor:context-menu; }
+.row-item .fa-bar-chart:before 					{ content: "\e941"; cursor:default; }
 .row-item .fa-exclamation:before 				{ content: "\e942"; }
 .row-item .fa-file:before 						{ content: "\e91f"; }
 .row-item .fa-file-o:before 						{ content: "\e91f"; }
-.row-item .fa-paperclip:before 					{ content: "\e982"; cursor:context-menu; }
+.row-item .fa-paperclip:before 					{ content: "\e982"; cursor:default; }
 .row-item .fa-question:before 					{ content: "\e97f"; }
 .row-item .fa-recycle:before 					{ content: "\e940"; }
 .search-box .fa-cog:before						{ content: "\e913"; }
@@ -799,7 +796,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 			url('fonts/font-proflat.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
-	cursor:context-menu;
 }
 .action-bar .fa-angle-left:before,
 .action-bar .fa-reply:before,
@@ -838,7 +834,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 .previous .fa-chevron-left:before,
 .profile-contact .fa-commenting-o:before,
 .row-item:before, 
-.row-item:after,
 .row-item .fa-bar-chart:before,
 .row-item .fa-exclamation:before,
 .row-item .fa-file:before,
@@ -859,7 +854,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 	line-height: 1;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 .row-item .fa-file-o:before,
 .lastpost .fa-external-link-square:before {
@@ -908,147 +902,161 @@ li.notification-reported strong, li.notification-disapproved strong {
 	color: #ffffff;
 }
 /* Forum icons & Topic icons */
-.row-item:before,
-.row-item:after {
-	font-size: 18px ;
+.row-item:before {
+	font-size: 28px ;
     left: 10px;
-    padding: 8px 8px;
+    padding: 3px  3px 1px 1px;
     position: absolute;
 	top: 50%; /* poussé de la moitié de hauteur du référent */
 	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
 }
 .global_read:before,
-.global_read_mine:before,
 .announce_read:before,
-.announce_read_mine:before,
-.sticky_read:before,
-.sticky_read_mine:before { 
-	content: "\e907"; 
-	background-color: #808080; 
+.sticky_read:before { 
+	content: "\e99d"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu;
+	cursor:default;
+}
+.global_read_mine:before,
+.announce_read_mine:before,
+.sticky_read_mine:before { 
+	content: "\e99c"; 
+	background-color: #e5e5e5; 
+	color: #666666; 
+	cursor:default;
 }
 .global_unread:before,
-.global_unread_mine:before,
 .announce_unread:before,
-.announce_unread_mine:before,
-.sticky_unread:before,
-.sticky_unread_mine:before {
-	content: "\e907"; 
+.sticky_unread:before {
+	content: "\e99d";  
 	color: #ffffff; 
-	cursor:context-menu;
+	cursor:default;
+}
+.global_unread_mine:before,
+.announce_unread_mine:before,
+.sticky_unread_mine:before {
+	content: "\e99c"; 
+	color: #ffffff; 
+	cursor:default;
 }
 .global_read_locked:before,
-.global_read_locked_mine:before,
 .announce_read_locked:before,
-.announce_read_locked_mine:before,
 .forum_read_locked:before,
 .sticky_read_locked:before,
-.sticky_read_locked_mine:before,
-.topic_read_locked:before,
-.topic_read_locked_mine:before {
-	content: "\e90c"; 
-	background-color: #808080; 
+.topic_read_locked:before {
+	content: "\e9a6"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu; 
+	cursor:default; 
+}
+.global_read_locked_mine:before,
+.announce_read_locked_mine:before,
+.sticky_read_locked_mine:before,
+.topic_read_locked_mine:before {
+	content: "\e9a6"; 
+	background-color: #e5e5e5; 
+	color: #666666; 
+	cursor:default; 
 }
 .global_unread_locked:before,
-.global_unread_locked_mine:before,
 .announce_unread_locked:before,
-.announce_unread_locked_mine:before,
 .forum_unread_locked:before,
 .topic_unread_locked:before,
-.topic_unread_locked_mine:before {
-	content: "\e90c"; 
+.sticky_unread_locked:before { 
+	content: "\e99e";  
 	color: #ffffff; 
-	cursor:context-menu;
+	cursor:default;
+}
+.global_unread_locked_mine:before,
+.announce_unread_locked_mine:before,
+.topic_unread_locked_mine:before,
+.sticky_unread_locked_mine:before { 
+	content: "\e9a7";  
+	color: #ffffff; 
+	cursor:default;
 }
 .forum_link:before { 
-	content: "\e904"; 
-	background-color: #808080; 
+	content: "\e9a1"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu; 
+	cursor:default; 
 }
 .forum_read:before,
 .forum_read_subforum:before,
-.topic_read:before,
-.topic_read_mine:before	{ 
-	content: "\e91f"; 
-	background-color: #808080; 
+.topic_read:before	{ 
+	content: "\e9a5"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu;
+	cursor:default;
+}
+.topic_read_mine:before	{ 
+	content: "\e9a4"; 
+	background-color: #e5e5e5; 
+	color: #666666; 
+	cursor:default;
 }
 .forum_unread:before,
 .forum_unread_subforum:before,
-.topic_unread:before,
-.topic_unread_mine:before {
-	content: "\e91f";
+.topic_unread:before {
+	content: "\e9a5"; 
 	color: #ffffff; 
-	cursor:context-menu;
+	cursor:default;
 }
-.sticky_unread_locked:before,
-.sticky_unread_locked_mine:before { 
-	content: "\e90c"; 
+.topic_unread_mine:before {
+	content: "\e9a4"; 
 	color: #ffffff; 
-	cursor:context-menu; 
+	cursor:default;
 }
 .topic_moved:before { 
-	content: "\e903"; 
-	background-color: #808080; 
+	content: "\e9a0"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu; 
+	cursor:default; 
 }
-.topic_read_hot:before,
+.topic_read_hot:before { 
+	content: "\e9a2"; 
+	background-color: #e5e5e5; 
+	color: #666666; 
+	cursor:default;
+}
 .topic_read_hot_mine:before { 
-	content: "\e906"; 
-	background-color: #808080; 
+	content: "\e9a3"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu;
+	cursor:default;
 }
-.topic_unread_hot:before,
-.topic_unread_hot_mine:before { 
-	content: "\e906"; 
+.topic_unread_hot:before { 
+	content: "\e9a2"; 
 	color: #ffffff; 
-	cursor:context-menu; 
+	cursor:default; 
+}
+.topic_unread_hot_mine:before { 
+	content: "\e9a3"; 
+	color: #ffffff; 
+	cursor:default; 
 }
 .pm_read:before	{ 
-	content: "\e925"; 
-	background-color: #808080; 
+	content: "\e99f"; 
+	background-color: #e5e5e5; 
 	color: #666666; 
-	cursor:context-menu; 
+	cursor:default; 
+}
+.pm_read_mine:before	{ 
+	content: "\e99e"; 
+	background-color: #e5e5e5; 
+	color: #666666; 
+	cursor:default; 
 }
 .pm_unread:before { 
-	content: "\e925"; 
+	content: "\e99f"; 
 	color: #ffffff; 
-	cursor:context-menu; 
+	cursor:default; 
 }
-.global_read_mine:after,
-.global_read_locked_mine:after,
-.announce_read_mine:after,
-.announce_read_locked_mine:after,
-.sticky_read_mine:after,
-.sticky_read_locked_mine:after,
-.topic_read_mine:after,
-.topic_read_hot_mine:after,
-.topic_read_locked_mine:after  { 
-	content: "\e955"; 
-	color: #666666; 
-	margin: -5px 0 0 16px; 
-	cursor:context-menu; 
-}
-.global_unread_mine:after,
-.global_unread_locked_mine:after,
-.announce_unread_mine:after,
-.announce_unread_locked_mine:after,
-.sticky_unread_mine:after,
-.sticky_unread_locked_mine:after,
-.topic_unread_mine:after,
-.topic_unread_hot_mine:after,
-.topic_unread_locked_mine:after	{
-	content: "\e955"; 
+.pm_unread_mine:before { 
+	content: "\e99e"; 
 	color: #ffffff; 
-	margin: -5px 0 0 16px; 
-	cursor:context-menu; 
+	cursor:default; 
 }
 /* Horizontal list */
 ul.linklist li a {
@@ -1057,6 +1065,10 @@ text-decoration: none;
 /* Inner box-model clearing */
 .dropdown-extended .header a {
 	display: inline;
+}
+/* List in forum description */
+dd.lastpost span a, dd.mark input {
+	position: relative;
 }
 /* Miscellaneous styles */
 .copyright a {
@@ -1130,10 +1142,10 @@ text-decoration: none;
 /* Quick-login on index page */
 fieldset.quick-login {
 	background-color: #f5f5f5;
-	border-bottom: 1px solid #808080;
+	border-bottom: 1px solid #e5e5e5;
 }
 fieldset.quick-login:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 /* Responsive */
 @media (max-width: 700px) {
@@ -1157,7 +1169,7 @@ fieldset.quick-login:hover {
 .bg2:hover,
 .bg3:hover,
 .panel:hover  {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 /* Social links */
 .socialinks {
@@ -1189,6 +1201,7 @@ fieldset.quick-login:hover {
 .fp-blogger:before 						{ content: "\e95a"; background: #ff9334; }
 .fp-dailymotion:before 					{ content: "\e971"; background: #0064dc; }
 .fp-facebook:before 						{ content: "\e965"; background: #3765a3; }
+.fp-feed:before 							{ content: "\e91e"; background: orange; }
 .fp-flickr:before 						{ content: "\e972"; background: #ff0084; }
 .fp-github:before						{ content: "\e96e"; background: #353535;}
 .fp-googleplus:before 					{ content: "\e96f"; background: #dc4e41; }
@@ -1208,7 +1221,6 @@ fieldset.quick-login:hover {
 .fp-whatsapp:before						{ content: "\e95c"; background: #3ace01; }
 .fp-wordpress:before					{ content: "\e978"; background: #21759b; }
 .fp-youtube:before						{ content: "\e963"; background: #ec2828; }
-
 .fp-blogger:hover:before 				{ content: "\e95a"; background: #c77329; }
 .fp-dailymotion:hover:before 			{ content: "\e971"; background: #004eac; }
 .fp-facebook:hover:before 				{ content: "\e965"; background: #2b4f7f; }
@@ -1245,16 +1257,13 @@ fieldset.quick-login:hover {
 .stat-block p {
 	background-color: #f5f5f5;
 	padding: 10px 0 10px 10px;
-	border-bottom: 1px solid #808080;
+	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 5px;
 }
 .stat-block p:hover {
-	background-color: #808080;
+	background-color: #e5e5e5;
 }
 @media (max-width: 700px) {
-	.stat-block {
-		margin: 0 -5px;
-	}
 	.stat-block h3 {
 		text-align: center;
 		text-transform: none;
@@ -1272,10 +1281,63 @@ table.table1 thead tr {
 table.table1 thead th a {
 	padding: 0 0 0 8px;
 }
-/* remove site description */
-.site-description h1, .site-description p {
-/*	display: none; */
-position: absolute;
-left: -999px;
-width: 990px;
+/* --------------------------------------------------------------------------------------- */
+/* bidi.css                                                                                */
+/* --------------------------------------------------------------------------------------- */
+/* Colours and backgrounds for content.css */
+.rtl li.row:hover dd {
+	border-right-color: #e5e5e5;
+	border-left-color: transparent;
+}
+/* Content Styles */
+.rtl li.header dl.row-item dt .list-inner {
+    padding-left: inherit;
+    padding-right: 10px !important;
+}
+/* Font Proflat */
+.rtl .dropdown-extended .notification-block .fa-user {
+    float: right;
+    margin-right: 4px;
+}
+/* Forum icons & Topic icons */
+.rtl .row-item:before {
+    left: inherit;
+    right: 10px;
+}
+/* Forum list column styles */
+.rtl dl a.row-item-link {
+	margin-right: 10px !important;
+}
+/* Miscellaneous styles */
+.rtl .copyright {
+	float: right;
+	padding: 10px;
+	text-align: right;
+}
+/* Poster profile block */
+.rtl .online-text {
+	right: inherit;
+	left: 8px;
+}
+/* Quote block */
+.rtl blockquote cite > div {
+    float: left;
+}
+/* Social links */
+.rtl .socialinks {
+	float: left;
+}
+/* Stat-block */
+.rtl .stat-block h3 {
+    padding: 12px 10px 12px 0;
+}
+.rtl .stat-block p {
+    padding: 10px 10px 10px 0;
+}
+/* Topic and forum Search */
+.rtl .search-box .inputbox {
+    border-radius: 0 !important;
+}
+.rtl .button-search-end {
+    border-radius: 0 !important;
 }

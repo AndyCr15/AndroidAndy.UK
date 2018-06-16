@@ -1,0 +1,40 @@
+[		{"version": "v0.4.1",
+			"release":"Working on Trip Recording",
+			"url":"https://rebrand.ly/rideoutupdate",
+			"comment":"When you record a trip, then view it, you now get stats about the distance and speed of the trip. Please let me know your experiences.  Hopefully bringing in saving trips soon."
+		},
+		{"version": "v0.4",
+			"release":"Moving from Alpha to Beta",
+			"url":"https://drive.google.com/drive/folders/0B5MF2kx0QW1MNUV6OE16dzhQWms?usp=sharing",
+			"comment":"Large amount of updates. Groups not used for 7 days are removed. Changeable sort order of groups. UI improvements in Map View, inc Trip Recoring, 'Home' Geofence shown, icon updates, better view of other group members."
+		},
+		{"version": "v0.3.4.1",
+			"release":"Small UI change",
+			"url":"https://drive.google.com/drive/folders/0B5MF2kx0QW1MNUV6OE16dzhQWms?usp=sharing",
+			"comment":"When you press Next or Previous, you get to see where they are in releation to your own location."
+		},
+		{	"version": "v0.3.4",
+			"release":"Small bugfixes",
+			"url":"http://bit.ly/rideoutbuddyupdate",
+			"comment":"Going to leave GPS reporting to a set amount for now. Please feedback on battery use."
+		},		
+		{
+			"version": "v0.3.3",
+			"release":"Removed GPS Frequency check as it appeared to not work as intended.  This is now fixed at 1 minute and 500 meters",
+			"url":"http://bit.ly/rideoutbuddyupdate",
+			"comment":"I'll look into variable GPS frequency again later.  For now it's best it's removed and see how it goes. 
+			Previously the service seemed to report every second, which would stress your phone somewhat!"
+		},
+		{
+			"version": "v0.3.2",
+			"release":"Mainly bugfxies. Implemented version checking and feedback button.",
+			"url":"http://bit.ly/rideoutbuddyupdate",
+			"comment":"Please keep up to date. I can monitor crashes based on version number and only new version crashes are useful. Thanks for helping test my app!"
+		},
+		{
+			"version": "v0.3.1",
+			"release":"Small update with a few bugfixes and efficiencies made.",
+			"url":"http://bit.ly/rideoutbuddyupdate",
+			"comment":"I think the occassinal crash is the service running to report location when in a group."
+		}
+	]

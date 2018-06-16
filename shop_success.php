@@ -15,7 +15,6 @@ if($_SESSION['toPay']==0){
     die();
 }
 
-
 ?>
 
     <html lang="en">
@@ -33,21 +32,20 @@ if($_SESSION['toPay']==0){
     </head>
 
     <body>
-        <form action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
 
-            <?php
+        <?php
                 include 'header.php';
             ?>
 
-                <div id="bodymain" class="container">
+            <div id="bodymain" class="container">
 
-                    <?php
+                <?php
                     if(true){
                 ?>
 
-                        <h2 style="margin-top:0px">Order Successful</h2>
-                        <hr>
-                        <?php 
+                    <h2 style="margin-top:0px">Order Successful</h2>
+                    <hr>
+                    <?php 
 
                         include 'cart.php';
 
@@ -55,14 +53,14 @@ if($_SESSION['toPay']==0){
                             echo ('<hr>');
 
                     ?>
-                        <p>Thank you for your order. I will usually post your order out within 2 working days to the address given in the Paypal payment. Please <a href="contact.php">contact me</a> if you need to check your order status.</p>
-                        <?php
+                    <p>Thank you for your order. I will usually post your order out within 2 working days to the address given in the Paypal payment. Please <a href="contact.php">contact me</a> if you need to check your order status.</p>
+                    <?php
                         session_destroy();
                     } else {
                         echo '<h2 style="margin-top:0px">Payment Not Completed</h2>';
                         echo '<p>Go <a href="shop.php">Back To Shop</a></p>';
                     }
                 ?>
-                </div>
-        </form>
+            </div>
+            </form>
     </body>

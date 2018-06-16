@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<item>
+    <title>BenQ ScreenBar eReader Lamp</title>
+    <date>13th June 2018</date>
+    <text><![CDATA[<p>The good people at BenQ got in touch with me this week to see if I'd like to try their new eReader Lamp.  I wasn't really sure what that meant, but of course said I'd love to!  What it actually is, is a table lamp that sits on top of your monitor.  It's not quite as simple as that though, the BenQ ScreenBar eReader Lamp has five important features to make it stand out from other lamps.</p>
+                <img src="../../images/benq1.jpg" width="100%" alt="BenQ ScreenBar" width="1100"/>
+                <p>The BenQ ScreenBar eReader Lamp features the following -</p>
+                <ul>
+                    <li>Auto Dimming. Optimal Brightness Instantly</li>
+                    <li>Space Saving. No Lamp Base, More Desk Space</li>
+                    <li>Glare Free</li>
+                    <li>USB Powered</li>
+                    <li>Adjustable Color Temperature:</li>
+                </ul><a href="news/2018/benq-screenbar-ereader-lamp.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Time to go 4K - Sony vs Samsung</title>
+    <date>25th May 2018</date>
+    <text><![CDATA[<p>Up until very recently I thought it was too expensive to go 4K.  I remember last year I noticed some quite nice 4K TV's for around £600, but decided against it as there still wasn't much 4K content available.  I'm not sure what really changed my mind this month, but I upgraded both our living room TV (55") and my bedroom TV (40") to 4K HDR and wow... amazing!  It's not even the 4K content, the 1080p I watch looks outstanding!  I now understand what people mean when they say it looks too real.  It's hard to explain, but every now and then you get a shot that just looks so real, you expect the director to walk in shouting 'cut!'.</p>
+                <img src="../../images/samsung4k.jpg" width="100%">
+                <p><a href="news/2018/time-to-go-4k-sony-vs-samsung.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Noise Cancelling Wireless Headphones</title>
+    <date>22nd May 2018</date>
+    <text><![CDATA[<p>It all began about 6 months ago when my brother splurged on a pair of Bose QC 35 ii's for his hour plus commute to work.  Now, I remember hearing Bose noise cancellation before, a demo somewhere, sometime, but I don't remember it being as impressive as it was when I reviewed his Bose headphones.  I almost instantly ordered my own set.</p>
+                <p>I then realised they weren't as perfect as I thought.  Playing games I noticed quite a delay in the sound, from firing a bullet to hearing it fired was around a third of a second.  It doesn't sound much but actually it's quite off putting.  Also, ask a gamer what he thinks of playing competitively with a 300+ ping!  So began my hunt for the perfect wireless noise cancelling headphones!</p>
+                <img src="../../images/noise-cancelling-wireless-headphones.jpg" width="100%">
+                <p><a href="news/2018/noise-cancelling-wireless-headphones.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Android P Is Here!</title>
+    <date>11th May 2018</date>
+    <text><![CDATA[<p>Google I/O has been on this week and with it came the beta release of Android's latest OS update, Android P.  At this point we don't know what P will stand for, we don't even know what version this will be, will it be 8.2 or Android 9?</p>
+                <p>Some good news for non-Pixel types though, Android P Beta is available on many more phones than it's been allowed on in the past -</p>
+                <table class="table-striped" style="width:100%">
+                    <tr>
+                        <td>Google Pixel</td>
+                        <td>Google Pixel XL</td> 
+                        <td>Google Pixel 2</td>
+                        <td>Google Pixel 2 XL</td>
+                    </tr>
+                    <tr>
+                        <td>OnePlus 6</td>
+                        <td>Essential PH‑1</td> 
+                        <td>Sony Xperia XZ2</td>
+                        <td>Xiaomi Mi Mix 2S</td>
+                    </tr>
+                    <tr>
+                        <td>Nokia 7 Plus</td>
+                        <td>Oppo R15 Pro</td> 
+                        <td>Vivo X21</td>
+                    </tr>
+                </table>
+                <p>I think it's very interesting to see OEM's like Xiaomi, Oppo and Vivo on the list, well done Google!</p>
+                <img src="../../images/androidp.jpg" width="100%" alt="Android P Beta Easter Egg">
+                <p><a href="news/2018/android-p-is-here.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Xiaomi are coming to the UK</title>
+    <date>4th May 2018</date>
+    <text><![CDATA[<p>Many people in the UK have never heard of Xiaomi, but they're actually the worlds 5th largest smartphone company with revenue of $15 billion in 2017.  They aren't just limited to smartphones either, my pedometer is a Xiaomi product for example.  They make drones, TV's, laptops and air purifiers to name just a few other products.</p>
+                <img src="../../images/redmi5plus.jpg" width="100%">
+                <p>If you watched my <a href="https://www.youtube.com/watch?v=H2T1rpc6VB0">Redmi 5 Plus review</a> from last week, you'll already know that buying Xiaomi devices over here in the UK is a slow process, taking weeks and including a income tax Russian Roulette element when receiving the device.  Maybe soon that will all change though.</p>
+                <p><a href="news/2018/xiaomi-coming-to-the-uk.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Android Vendors Fake Security Updates</title>
+    <date>19th April 2018</date>
+    <text><![CDATA[<p>At a recent '<a href="http://www.hitb.org/">Hack in the Box</a>' security conference in Amsterdam, two researchers called Karsten Nohl and Jakob Lell of the firm Security Research Labs revealed the results of a two year long investigation into Android security patches by vendors.  In their study, they examined the firmware of 1,200 Android devices, to see if the patch level quoted in the OS was actually the patch level found on the device for patches released in 2017.  They found what they call a 'patch gap' in many of the well known OEM's devices.</p>
+                <img src="../../images/security-update.jpg" width="100%">
+            <p><a href="news/2018/android-vendors-fake-security-updates.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>My YouTube Equipment Setup</title>
+    <date>18th April 2018</date>
+    <text><![CDATA[<p>Every now and then I get asked about what equipment I use to make my YouTube videos. Well, once I got asked.  Okay, once I told someone and now I'm going to tell you...</p>
+                <p>It doesn't take a huge amount of money to get a decent setup, but you do need to spend a little.  If I get to a YouTube video and the lighting means the camera can't focus or the person can barley be understood as the audio is that bad, I quite often just move on.  I think my setuo can be had for around £500, which I think is reasonable if you're serious about YouTube videos. So, lets take a look at the kit.</p>
+                <img src="../images/youtubesetup.jpg" alt="My YouTube Equipment Setup" width="100%"/>
+            <p><a href="news/my-youtube-equipment-setup.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Save Money Shopping Online</title>
+    <date>15th April 2018</date>
+    <text><![CDATA[<p>Everyone loves saving money when shopping online, right?  So I've got some of my best tips that could save you hundreds of pounds every year.  If you're reading this on your phone, sorry, most of these tips are for when shopping on your PC.</p>
+            <img src="http://androidandy.uk/images/savemoneyshoppingonline.jpg" alt="Save Money Shopping Online" width="100%" />
+            <p><a href="news/save-money-shopping-online.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>A Safer and Faster Internet is No Joke</title>
+    <date>6th April 2018</date>
+    <text><![CDATA[<p>Interesting timing, the day after I record my video about online security that Cloudflare and APNIC announce they have a simple way for everyone make themselves more secure and private online and it can be done in a matter of minutes.  It was also quite interesting that they chose to announce it on April 1st...  so many people took the news to be a joke!</p>
+            <img src="http://androidandy.uk/images/11111.jpg" alt="[ 1.1.1.1 ]" width="100%" />
+            <p><a href="news/new-faster-safer-internet-in-two-minutes.php"><h4>Read More...</h4><a></p>
+            ]]></text>
+</item>
+
+<item>
+    <title>Passwords and Online Security</title>
+    <date>31st March 2018</date>
+    <text><![CDATA[<p>Until last year I hadn't really thought about passwords, how they're stored online and what are the best ones to pick are, but then I needed to code them into my website. I thought it was interesting enough to share with everyone, to hopefully help keep people safer online.</p>
+            <p>There are really 4 ways you can be compramised (I missed one in the video below)</p>
+            <lu>
+                <li>Phishing attack</li>
+                <li>Social engineering/too easy to guess password</li>
+                <li>Brute force attack</li>
+                <li>Website hacked</li>
+            </lu>
+            <p><a href="news/passwords-and-online-security-hints-and-tips.php"><h4>Read More...</h4><a></p>
+            <div class="youtube-player" data-id="qoKyCeG09Tc"></div>
+            <p style="font-size:11px"><a href="https://www.youtube.com/watch?v=qoKyCeG09Tc">Click here to see my video explanation of this.</a></p>]]></text>
+</item>
+
+<item>
+    <title>The MacBook Air 2017 Review Is Done</title>
+    <date>18th March 2018</date>
+    <text><![CDATA[<p class="newstext">I don't feel the review video went as well as most I do, but hopefully you get a good feel for my opinion.</p>
+            <p class="newstext">So do I like it? Generally, I'm quite a fan actually. The main negatives people give are the screen and design, but I can't say the screen was an issue for me and the slightly larger bezels don't bother me.</p>
+            <p class="newstext">On the plus side, I love the portability, I love the gestures, I love the backlit keyboard and I'm just about coping with MacOS which is actually nice and smooth, even on what is considered the 'budget' MacBook.</p>
+            <p class="newstext">I think I could definitely be tempted when a 2018 version comes out and I am also on the lookout for a cheap second hand iPhone, but I promise you, it's only for helping with my iOS coding development, I'm not switching sides!</p>
+            <div class="youtube-player" data-id="CkmaplnDZLE"></div>
+            <p style="font-size:11px"><a href="https://www.youtube.com/watch?v=CkmaplnDZLE">Click here to watch ,y review of the MacBook Air 2017.</a></p>
+            <p class="newstext">Come and let me know what you think <a href="http://androidandy.uk/phpbb/viewtopic.php?f=9&t=7">on my forum post about my MacBook</a>.</p>]]></text>
+</item>
+
+<item>
+    <title>Bootstrap Update - Website Fixed!</title>
+    <date>18th March 2018</date>
+    <text><![CDATA[<p class="newstext">I actually enjoy debugging code... mostly. I think you need to if you're going to be a programmer, you spend too much of your time doing it!</p>
+                                <p class="newstext">I'd noticed this week that the 'accordion' effect wasn't working consistently on this front page. Sometimes you could click something and it wouldn't open. Then you would open new articles but the others didn't close.</p>
+                                <p class="newstext">Someone had mentioned to me that the navbar broke with the latest version of Bootstrap, but I wondered if this update would fix my accorion woes, so this morning I updated Bootstrap.</p>
+                                <p class="newstext">It did break the navbar, but that was quite easy to fix. In fact, now it's much better, on a mobile you don't get an oversized bar, covering half the site, you get a little drop down menu button instead!</p>
+                                <p class="newstext">I also realised the collapsing accordion code had totally changed, so I went through each of these news items and changed the code! Okay, they bit wasn't all that fun, but it's done the job!</p>
+                                <p class="newstext">Now I need to see if I can be bothered to do it for the 'Show more news' bit at the bottom... that's a lot of work!</p>
+                                <p class="newstext">In the mean time, please report any bugs you find <a href="http://androidandy.uk/phpbb/viewforum.php?f=13">in the coding forum</a>. Thanks!</p>]]></text>
+</item>
+
+<item>
+    <title>I've Bought a MacBook?!</title>
+    <date>6th March 2018</date>
+    <text><![CDATA[<p class="newstext">Not a video I had thought I would ever be making, but don't worry, I explain why...</p>
+                                <div class="youtube-player" data-id="sMzU5LfvCBw"></div>
+                                <p style="font-size:11px"><a href="https://www.youtube.com/watch?v=sMzU5LfvCBw">Click here to see my explanation of why I bought a MacBook Air 2017.</a></p>
+                                <p class="newstext">Do you think it was a good idea? Why not come and discuss it with me <a href="http://androidandy.uk/phpbb/viewtopic.php?f=9&t=7">on my forum post?</a></p>]]></text>
+</item>
+
+<item>
+    <title>It's Snowing In London!</title>
+    <date>3rd March 2018</date>
+    <text><![CDATA[<p class="newstext">I took my DJI Mavic Pro out last night and this morning to get some shots of a snowy Barnet.</p>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-lg-4 lightbox-image">
+                                        <a href="https://i.imgur.com/h53zIIlh.jpg" data-lightbox="example-1"><img class="example-image" src="https://i.imgur.com/h53zIIlb.jpg" alt="Barnet at night" /></a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-4 lightbox-image">
+                                        <a href="https://i.imgur.com/0CYJNRhh.jpg" data-lightbox="example-1"><img class="example-image" src="https://i.imgur.com/0CYJNRhb.jpg" alt="Barnet at night" /></a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-4 lightbox-image">
+                                        <a href="https://i.imgur.com/ICuEjmGh.jpg" data-lightbox="example-1"><img class="example-image" src="https://i.imgur.com/ICuEjmGb.jpg" alt="The DJI Mavic Pro" /></a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-4 lightbox-image">
+                                        <a href="https://i.imgur.com/ogZOtorh.jpg" data-lightbox="example-1"><img class="example-image" src="https://i.imgur.com/ogZOtorb.jpg" alt="Barnet" /></a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-4 lightbox-image">
+                                        <a href="https://i.imgur.com/KfqKX7qh.jpg" data-lightbox="example-1"><img class="example-image" src="https://i.imgur.com/KfqKX7qb.jpg" alt="Barnet" /></a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-4 lightbox-image">
+                                        <a href="https://i.imgur.com/GItApIih.jpg" data-lightbox="example-1"><img class="example-image" src="https://i.imgur.com/GItApIib.jpg" alt="The pilot" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="newstext">It's a shame it's too hazy this morning for a decent photo. If the sun breaks through, I'll get back out there, but already I can see the snow is clearing up on the ground.</p><div style="clear: left;"></div>]]></text>
+</item>
+
+<item>
+    <title>AAUK Forum Open</title>
+    <date>25th February 2018</date>
+    <text><![CDATA[<p class="newstext">I've set up a forum, giving you all a new way of discussing tech and interests with me and others.</p>
+                                    <p>Simply click on 'Forum' in the Navbar at the top, register and post away! If you'd like me to look into reviewing something, let me know!</p>]]></text>
+</item>
+
+<item>
+    <title>Mobile Phone Gimbal</title>
+    <date>22nd February 2018</date>
+    <text><![CDATA[<p class="newstext">I'm sure it comes as no surpsise that I enjoy making videos. Also, one of the main reasons I have a Pixel 2 XL as my main device is the camera on it, as this is often the main tool of my personal video creation.</p>
+                                    <p class="newstext">One thing you generally want when creating video, is a nice smooth frame. The Pixel has fantastic video stabilisation, but nothing can compare to an actual gimbal, so when I saw this Zihyun Smooth-Q Gimbal for only £99, I thought I had to try it!</p>
+                                    <p class="newstext">It has three modes, each one locking different axis -</p>
+                                    <lu>
+                                        <li>Pan Following Mode - Moves with you left and right, but not up and down</li>
+                                        <li>Locking Mode - Both up and down and left and right will remain as they began, you move around them.</li>
+                                        <li>Following Mode - Will move with you, left and right as well as up and down.</li>
+                                    </lu><br>
+                                    <p class="newstext">Don't forget the massive 26,000mAh battery giving a quoted 12 hours of smooth recording or you can use it to keep you phone battery topped up, while in use!</p>
+                                    <p class="newstext">All in all, it really is a capable little device, which copes just fine with a phone the size of the 2 XL. It's quite impressive how smooth it is, even as I jog along using it and well worth the money if you also love making videos.</p>
+                                    <div class="youtube-player" data-id="_qEZVNfSuqw"></div>
+                                    <p style="font-size:11px"><a href="https://www.youtube.com/watch?v=_qEZVNfSuqw">Click here to see my video revioew of the gimbal.</a></p>]]></text>
+</item>
+
+<item>
+    <title>What's On My Phone</title>
+    <date>11th February 2018</date>
+    <text><![CDATA[<p class="newstext">My latest video is a request from someone, asking me to make a video of what I have installed on my phone. You ask. I deliver!</p>
+                                    <div class="youtube-player" data-id="jVE3yzmft0g"></div>
+                                    <p style="font-size:11px"><a href="https://www.youtube.com/watch?v=jVE3yzmft0g">Click here to see my video of me taking you through what's installed on my phone.</a></p>
+                                    <p class="newstext">The highlights, the daily used essential apps are -</p>
+                                    <ul>
+                                        <li><a href="https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher&hl=en_GB">Nova Launcher</a></li>
+                                        <li><a href="https://play.google.com/store/apps/details?id=com.tvshowfavs&hl=en_GB">TV Show Favs</a></li>
+                                        <li><a href="https://play.google.com/store/apps/details?id=mobi.beyondpod&hl=en_GB">BeyondPod Podcast Player</a></li>
+                                        <li><a href="https://play.google.com/store/apps/details?id=com.samruston.weather&hl=en_GB">Weather Timeline</a></li>
+                                        <li><a href="https://play.google.com/store/apps/details?id=com.androidandyuk.regularreminders&hl=en_GB">Regular Reminders</a></li>
+                                        <li><a href="https://play.google.com/store/apps/details?id=com.lastpass.lpandroid&hl=en_GB">Last Pass</a></li>
+                                    </ul>
+                                    <p class="newstext">Do you have any essential, daily use apps? Why not <a class="nav-link" href="contact.php">let me know</a> about them.</p>]]></text>
+</item>
+
+<item>
+    <title>Changes to YouTube</title>
+    <date>19th January 2018</date>
+    <text><![CDATA[<p class="newstext">This week I received an email from YouTube that basically explained they were changing the criterea for which channels would be allowed to monetise. They were making it harder for the little guy, now requiring 4,000 hours of watch time in the last 12 months and at least 1,000 subscribers.</p>
+                                    <p>Although they don't say this, I'm reasonably sure the reason is due to their fear of losing advertisers over the 'scandal' of them being put before inappropriate videos. Over the last couple of months YouTube introduced an algorythm of some kind that would try and flag these videos and probably around 50-60% of mine would be flagged and I would have to ask for a manual review before they would allow monetisation.</p>
+                                    <p>Simply removing all the new/small channels will probably be a much easier way for YouTube to control this, hence the new criterea.</p>
+                                    <p>For my main channel, AndroidAndyUK, this is not a problem. I have both of those boxes ticked, but for my personal YouTube channel I do not.</p>
+                                    <p>So why am I posting about this then? Becuase although my personal channel is mainly for personal stuff, I have done some none tech related reviews on there for things like mattresses or motorbike locks, some of which do very well. With me no longer being able to monetise these I figure I may as well move them over onto AndroidAndyUK.</p>
+                                    <p>So, look out for some rather different videos being uploaded over the next day or two. Let me know in the comments of the video if you think this is a bad idea, or use the <a href="contact.php">contact me</a> page on this site. Thanks.</p>]]></text>
+</item>
+
+<item>
+    <title>Bluetooth Noise Cancelling Headphones</title>
+    <date>8th January 2018</date>
+    <text><![CDATA[<p class="newstext">Two unrelated events recently meant I was on the hunt for a set of noise cancelling headphones. The first was actually my brother lending me his new Bose QC35 ii headphones to do a quick review.</p>
+                                    <p>The second was my trusty Sony headphones breaking. Impressed as I was by the Bose, I devided to buy my own. What I didn't realise was that there's quite significant audio latency with the Bose, so I shelled out on some Sony 1000XM2 headphones which have a much reduced audio lag.</p>
+                                    <p>What that means for you guys, is another headphoen review and a comparison video.</p>
+                                    <div class="youtube-player" data-id="zqG1CS5JcE0"></div>
+                                    <p style="font-size:11px"><a href="https://www.youtube.com/watch?v=zqG1CS5JcE0">Click here to see my video comparison of the Bose QC35 ii and Sony WH-1000XM2 Bluetooth Noise Cancelling Headphones</a></p>
+                                    <p>I'd love to hear your thoughts, use the <a href="contact.php">contact me</a> page to let me know if there are another set of headphones I should be considering!</p>]]></text>
+</item>
+
+<item>
+    <title>PUBG Going Live</title>
+    <date>20th December 2017</date>
+    <text><![CDATA[<p class="newstext">For the past year and a half I've been quite consumed by Overwatch. I've clocked up over 570 hours as it's moved into my top 3 all time played games (since records began) behind just Counter Strike and Rift.</p>
+                                    <p>A couple of weekends ago though, I bought Playerunknown's Battlegrounds, which has been in early access for around a year, and I think I'm addicted!</p>
+                                    <p>The pace of the game is very different to most. It's like a single round of CS that takes half an hour to play. It can be very frustrating though, you play for 20 minutes not seeing anyone, then die to a headshot from someone camping in a bush...</p>
+                                    <p>It goes 'live' in less than 24 hours, so here's my video explaining the game as I'm sure it wont be to everyone's tastes.</p>
+                                    <div class="youtube-player" data-id="UHi8Fsqvba4"></div>]]></text>
+</item>
+
+<item>
+    <title>AAUK Podcast</title>
+    <date>23rd November 2017</date>
+    <text><![CDATA[<img class="news" src="images/podcast.png"  alt="AAUK Podcast Logo">
+                                    <p>Back when I was running <a href="http://www.lanarchy.co.uk/">Lanarchy.co.uk</a> we used to do a podcast every now and then. I think in total we spanned about 4 years as it was actually great fun to do. Quite often there would be 3 or 4 of us talking rubbish about games, tech and movies.</p>
+                                    <p>For a while now I've had two thoughts that I wasn't sure what to do about. What's the best way to get little bits of news out to people on a reasonably regular basis and secondly, almost unrelated, I watch a lot of different TV shows and would like a platform to let people know about them. Podcast!</p>
+                                    <p>So, I'm aiming for a small podcast each week, the first one is done and is around 15 minutes long. It might be, if it's a slow week, or I'm partricularly busy, it might not get done. There's also a reasonable chance if something big happens, I'll get one out midweek. For now, I thought I would at least get it set up, see if anyone at all wants to listen to me, then I can see where it goes.</p>
+                                    <p>To add it to your podcast player, add the feed url - <a href="http://podcast.androidandy.uk/feed.xml">http://podcast.androidandy.uk/feed.xml</a></p>]]></text>
+</item>
+
+<item>
+    <title>Full Pixel 2 XL Review</title>
+    <date>21st November 2017</date>
+    <text><![CDATA[<p class="newstext">I've been using the Pixel 2 for a week now, so it seemed about time I recorded my video letting you know what I thought about it.</p>
+                                    <p>Warning, it does run almost 35 minutes... but hopefully that at least means I've not left anything out!</p>
+                                    <div class="youtube-player" data-id="h95z8DKl6pk"></div>]]></text>
+</item>
+
+<item>
+    <title>How bad is the Pixel 2 XL screen?</title>
+    <date>19th November 2017</date>
+    <text><![CDATA[<p class="newstext">There's been a lot of talk on the internet about the Pixel 2 XL having a substandard screen. A screen you wouldn't expect on a mid-range phone, let alone an £800 device. Unfortunately I didn't see these claims until after I'd had my hands on in the Google Shop on Tottenham Court Road, so back then I wasn't looking for the defects people were complaining about.</p>
+                                    <p>Well, now I have my own Pixel 2 XL, I thought it was time to check them all out.</p>
+                                    <ul>
+                                        <li>The colours are too flat (does the new update fix this?)</li>
+                                        <li>18:9 Screen ratio leaves black bars either side when watching video</li>
+                                        <li>The blue tint/shift visible when the screen is angled only slightly</li>
+                                        <li>How effective is the screen when viewed through polarising sunglasses</li>
+                                        <li>Is there any blotchiness when viewing greys in low light</li>
+                                        <li>How bright is the screen</li>
+                                        <li>Can I see any screenburn yet</li>
+                                    </ul>
+                                    <p>All of these things are tested and looked into in my video. Check it out and leave a comment on whether you think it's an acceptable screen for a £800 phone.</p>
+                                    <div class="youtube-player" data-id="315K4_jnVVI"></div>]]></text>
+</item>
+
+<item>
+    <title>Shop Now Open</title>
+    <date>18th November 2017</date>
+    <text><![CDATA[<p class="newstext">I get sent quite a lot of gadgets to review, quite often I don't really have any interest in using the gadgets myself. Some of them I give away, but I thought I could sell them at a low enough price that my viewers might be happy and I get a few pennies towards my next gadget!</p>
+                                    <p>I thought it would also be a good opportunity to test my php and MySQL skills, so I set to work on making my own shop, which is now open for business.</p>
+                                    <P>It would appear everything works fine, worse case I can always just refund a Paypal transaction if anything goes wrong.</P>
+                                    <p>So, head on over to the <a href="shop.php">shop</a> and see if you can bag yourself a bargain!</p>]]></text>
+</item>
+
+<item>
+    <title>My New Phone! Pixel 2 XL</title>
+    <date>16th November 2017</date>
+    <text><![CDATA[<p class="newstext">I tend to play with quite a few different phones through the year, so when I tell people I'm getting my new phone I usually get 'Oh, another one...' and I have to explain, this time it's different, this really will be MY new phone! Exciting times!</p>
+                                    <p>I got quite the run-around from UK Mail, with whom I'd selected 'Collect from depot' only to see their delivery man at my front door (Video Doorbell) as I pulled in to their depot! I spent 1 hour and 40 minutes there and still didn't leave with my phone!</p>
+                                    <p>Luckily I had better fortune when I return the next morning and I was finally able to unwrap my new 'daily'!</p>
+                                    <div class="youtube-player" data-id="kITQAfgUlYU"></div>]]></text>
+</item>
+
+<item>
+    <title>Weather App For Bikers</title>
+    <date>11th November 2017</date>
+    <text><![CDATA[<p>It feels like it's been a while since I did some Android coding, so it was great to be inspired by someone to make a weather app that I will be happy to use myself.</p>
+                                        <p>The app itself isn't really the point though, it's all about the notifications. This app will notify me each night of what the weather will be like overnight and in the morning, if it's going to affect me being able to use the bike the next day. If the temperature will drop below 4oC, it will let me know. If it's going to rain overnight or in the morning, it will let me know. It will even tell me if it's likely to be sunny in the morning!</p>
+                                        <p>Technically it's still in beta, but I think it's all fully functional and can be bought (support your favourite YouTuber!) for <a href="https://play.google.com/store/apps/details?id=com.androidandyuk.onedayweather">only 59p</a>.</p>
+                                        <p>Almost hard to beleive I only started any coding less than 10 months ago, and now this is the 10th app I have on the Play Store. If you give it a go, please be sure to <a href="contact.php">let me know</a> what you think!</p>
+                                    </div>
+                                    <div class="col-sm-6 col-sm-4"><img style="width:280px; height:auto;" src="images/onedayweather.png"></div>]]></text>
+</item>
+
+</rss>

@@ -9,7 +9,6 @@
 }
 
 
-
 body {
     background-color: #d4d6db;
     margin: 0;
@@ -61,11 +60,52 @@ img {
     margin: auto;
 }
 
+[data-toggle ~ ="collapse"] {
+    cursor: pointer;
+}
+
+.lightbox-image {
+    margin: 10px;
+}
+
+.shopcard,
+.contactcard,
+.cardpodcast,
+.androidcard {
+    border: 1px;
+    background-color: #eff2f7;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5em 0em 5em 0em;
+    padding: 15px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 3px grey;
+    height: auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.contactcard {
+    height: 520px;
+}
+
+.shopcard {
+    height: 500px;
+}
+
+.cardpodcast {
+    padding: 20px;
+    height: 420px;
+}
+
 .podmedia {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 40px;
+    width: 100%;
+}
+
+.poddescription {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 caption {
@@ -97,9 +137,9 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-th:nth-child(even) {
+/*th:nth-child(even) {
     text-align: right;
-}
+}*/
 
 a:link,
 a:visited {
@@ -143,7 +183,7 @@ a:hover {
 }
 
 .newstitle {
-    float: left;
+    clear: left;
 
 }
 
@@ -171,44 +211,8 @@ img.news {
     box-shadow: 0 8px 6px -6px #999;
 }
 
-#card {
-
-    border: 1px;
-    background-color: #eff2f7;
-    border-width: 2px;
-    border-color: black;
-    border-radius: 5em 0em 5em 0em;
-    padding: 15px;
-    margin-bottom: 15px;
-    vertical-align: middle;
-    box-shadow: 5px 5px 3px grey;
-    min-height: 450px;
-
-}
-
-#cardpodcast {
-
-    border: 1px;
-    background-color: #eff2f7;
-    border-width: 2px;
-    border-color: black;
-    border-radius: 5em 0em 5em 0em;
-    padding: 25px;
-    margin-bottom: 25px;
-    vertical-align: middle;
-    box-shadow: 5px 5px 3px grey;
-    height: 400px;
-
-}
-
 #saleitemimage {
-    width: 100%;
-    height: 240px;
-    border-radius: 5em 0em 5em 0em;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-bottom: 15px;
-
+    border-radius: 5em 0em;
 }
 
 #bodybar {

@@ -63,7 +63,6 @@
 }
 
 .file-status.file-working {
-	-webkit-animation: fa-spin 1s infinite steps(8);
 	animation: fa-spin 1s infinite steps(8);
 }
 
@@ -95,8 +94,6 @@
 	width: 14px;
 	line-height: 1;
 	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 .file-name {

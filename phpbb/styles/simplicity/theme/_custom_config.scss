@@ -1,0 +1,34 @@
+//
+//	Add your custom configuration variables to this file.
+//	See _style_config.scss for list of variables
+//
+//	This file requires SASS compiler.
+//	You can find instructions here: http://www.artodia.com/phpbb-31-tutorials/compile-theme/
+//
+
+
+// Examples: (commented to prevent it from working)
+// 
+// $show-logo: true;
+// $use-wrapper: false;
+
+$center-logo:							false !default;	// true or false
+$show-forum-title:						false !default;	// true or false
+$max-width:								1028 !default;	// Maximum width. Set to "none" to make layout fluid
+$logo-block-padding:					15px 0 !default;
+
+// Page colors
+$page-background:						#EFF2F7 !default;	// HTML element
+$content-background:					#D4D6DB !default;	// Page inside content wrapper
+$content-border-color:					#EFF2F7 !default;	// Border color for content wrapper
+
+// Primary colors
+$primary-color:							#74AAD3 !default;	// Main color, used for links and stuff
+$secondary-color:						#808080 !default;	// Secondary color, usually in red - yellow range
+$block-background:						#FFFFFF !default;	// Background of blocks - post background and highlights - alternate posts
+$block-background-reported:				#e8c5c9 !default;	// Background for reported posts
+
+$block-background2:						#e3ecf9 !default;	// Blocks with .bg2 background color - other alternate post
+$block-background3:						#74AAD3 !default;	// Blocks with .bg3 background color - mostly UCP/MCP and posting form
+
+$block-border:							#74AAD3 !default;	// Border color for blocks

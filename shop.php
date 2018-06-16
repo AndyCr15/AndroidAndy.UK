@@ -13,28 +13,22 @@ session_start();
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/aauk.css">
+    <title>AndroidAndyUK - Shop</title>
+    <?php
+            include 'header.php';
+        ?>
 </head>
 
 <body>
-    <form action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
 
-        <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 
-        <?php
+    <?php
         $_SESSION['paid'] = 0;
-            include 'header.php';
+            include 'navbar.php';
         ?>
-            <div class="container" style="margin-top:70px">
-                <?php 
+        <div class="container" style="margin-top:70px">
+            <?php 
                     cart();
                     $_SESSION['ipAddress'] = getRealIpAddr();
                     $xml = simplexml_load_file("http://www.geoplugin.net/xml.gp?ip=".$_SESSION['ipAddress']);
@@ -51,61 +45,64 @@ session_start();
                     echo '<hr>';
                     products(); 
                 ?>
-            </div>
+        </div>
 
-            <script>
-                paypal.Button.render({
+        <script>
+            paypal.Button.render({
 
-                    env: 'production', // sandbox | production
+                env: 'production', // sandbox | production
 
-                    // Specify the style of the button
+                // Specify the style of the button
 
-                    style: {
-                        label: 'checkout',
-                        size: 'small', // small | medium | large | responsive
-                        shape: 'pill', // pill | rect
-                        color: 'gold' // gold | blue | silver | black
-                    },
+                style: {
+                    label: 'checkout',
+                    size: 'small', // small | medium | large | responsive
+                    shape: 'pill', // pill | rect
+                    color: 'gold' // gold | blue | silver | black
+                },
 
-                    // PayPal Client IDs - replace with your own
-                    // Create a PayPal app: https://developer.paypal.com/developer/applications/create
-                    client: {
-                        sandbox: 'AUbmPNC-HX_Owp3qMKAufXgkoiiUpieaFH4Bpd8ksMim9CRG69J9Bwy_XiqxW_9iWWgDFqKDPzh3sMzB',
-                        production: 'AV7uG8CdPI-nGhe8DGqcrTmkFv72w5Vj6IbSbSemiKlBmZKtAFv6OoBehBtc962ITFmVK__Pc26dgN_U'
-                    },
+                // PayPal Client IDs - replace with your own
+                // Create a PayPal app: https://developer.paypal.com/developer/applications/create
+                client: {
+                    sandbox: 'AUbmPNC-HX_Owp3qMKAufXgkoiiUpieaFH4Bpd8ksMim9CRG69J9Bwy_XiqxW_9iWWgDFqKDPzh3sMzB',
+                    production: 'AV7uG8CdPI-nGhe8DGqcrTmkFv72w5Vj6IbSbSemiKlBmZKtAFv6OoBehBtc962ITFmVK__Pc26dgN_U'
+                },
 
-                    // Show the buyer a 'Pay Now' button in the checkout flow
-                    commit: true,
+                // Show the buyer a 'Pay Now' button in the checkout flow
+                commit: true,
 
-                    // payment() is called when the button is clicked
-                    payment: function(data, actions) {
+                // payment() is called when the button is clicked
+                payment: function(data, actions) {
 
-                        // Make a call to the REST api to create the payment
-                        return actions.payment.create({
-                            payment: {
-                                transactions: [{
-                                    amount: {
-                                        total: <?php echo "'".$_SESSION['toPay']."'"; ?>,
-                                        currency: 'GBP'
-                                    }
-                                }]
-                            }
-                        });
-                    },
+                    // Make a call to the REST api to create the payment
+                    return actions.payment.create({
+                        payment: {
+                            transactions: [{
+                                amount: {
+                                    total: <?php echo "'".$_SESSION['toPay']."'"; ?>,
+                                    currency: 'GBP'
+                                }
+                            }]
+                        }
+                    });
+                },
 
-                    // onAuthorize() is called when the buyer approves the payment
-                    onAuthorize: function(data, actions) {
-                        // Make a call to the REST api to execute the payment
-                        return actions.payment.execute().then(function() {
-                            //$.post("shop_success.php", {
-                            //   paid: 1
-                            //});
-                            window.location.href = "shop_success.php";
-                        });
-                    }
-                }, '#paypal-button-container');
+                // onAuthorize() is called when the buyer approves the payment
+                onAuthorize: function(data, actions) {
+                    // Make a call to the REST api to execute the payment
+                    return actions.payment.execute().then(function() {
+                        //$.post("shop_success.php", {
+                        //   paid: 1
+                        //});
+                        window.location.href = "shop_success.php";
+                    });
+                }
+            }, '#paypal-button-container');
 
-            </script>
+        </script>
+        <?php
+            include 'footer.php';
+        ?>
 </body>
 
 </html>

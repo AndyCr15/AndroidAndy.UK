@@ -1,48 +1,29 @@
-<?php
-        require_once 'Mobile_Detect.php';
-        $detect = new Mobile_Detect;
-    
-    ?>
+<link rel=icon href=favicon.png>
+<meta name="description" content='AndroidAndyUK is a UK based website focusing on Android mobile phones and gadgets through YouTube reviews, Apps and social media.'>
 
-    <nav class="navbar navbar-fixed-top navbar-dark" style="background-color:#74AAD3">
-        <a class="navbar-brand" href="index.php">AAUK</a>
-        <ul class="nav navbar-nav">
-            <li class="nav-item"> <a class="nav-link" href="youtube.php">YouTube</a></li>
-            <li class="nav-item"> <a class="nav-link" href="android.php">Android</a></li>
-            <li class="nav-item"> <a class="nav-link" href="podcasts.php">Podcasts</a></li>
-            <li class="nav-item"> <a class="nav-link" href="shop.php">Shop</a></li>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 
-            <!-- only show about and support on non-mobile devices to keep the navbar thin -->
-            <?php
-                if ( !$detect->isMobile() ) {
-            ?>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="images/logo.png">
 
-                <li class="nav-item"> <a class="nav-link" href="about.php">About</a></li>
-                <li class="nav-item"> <a class="nav-link" href="support.php">Support</a></li>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="124 TOTY" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-                <?php
-                }
-            ?>
+<link rel="icon" sizes="192x192" href="images/icons/appicon192.jpg">
 
-                    <li class="nav-item"> <a class="nav-link" href="contact.php">Contact</a></li>
-        </ul>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <?php
-        if ( !$detect->isMobile() ) {
-    ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-            <form class="form-inline pull-xs-right" style="padding: 20px; line-height: 28px;">
-                <td><button class="btn btn-primary-outline" type="submit" style="height: 35px; float: right;">Search</button></td>
-                <input type="hidden" name="si" value="71011143">
-                <input type="hidden" name="pid" value="r">
-                <input type="hidden" name="n" value="0">
-                <input type="hidden" name="_charset_" value="">
-                <input type="hidden" name="bcd" value="&#247;">
-                <input type="text" name="query" size="15" style="height: 35px; float: right;">
-            </form>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-            <?php
-        }
-    ?>
+<link rel="stylesheet" type="text/css" href="css/aauk.css">
 
-    </nav>
+<link rel="stylesheet" href="css/lightbox.min.css">
+
+<link rel="manifest" href="/manifest.json">
+
+<script src="/jquery/jquery-3.3.1.min.js"></script>
